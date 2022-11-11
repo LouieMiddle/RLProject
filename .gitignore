@@ -1,9 +1,2 @@
 
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/vcs.xml
-.idea/RLProject.iml
-.idea/modules.xml
-.idea/misc.xml
-.idea/inspectionProfiles/Project_Default.xml
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/.gitignore
+.idea/*
