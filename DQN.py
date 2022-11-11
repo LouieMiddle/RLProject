@@ -70,19 +70,18 @@ import matplotlib
 import matplotlib.pyplot as plt
 from collections import namedtuple, deque
 from itertools import count
-from PIL import Image
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 import torchvision.transforms as T
-
+from torchvision.transforms import InterpolationMode
 
 if gym.__version__ < '0.26':
     env = gym.make('CartPole-v0', new_step_api=True, render_mode='single_rgb_array').unwrapped
 else:
-    env = gym.make('CartPole-v0', render_mode='rgb_array').unwrapped
+    env = gym.make('CartPole-v1', render_mode='rgb_array').unwrapped
 
 # set up matplotlib
 is_ipython = 'inline' in matplotlib.get_backend()
@@ -93,7 +92,6 @@ plt.ion()
 
 # if gpu is to be used
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 
 ######################################################################
 # Replay Memory
@@ -123,7 +121,7 @@ Transition = namedtuple('Transition',
 class ReplayMemory(object):
 
     def __init__(self, capacity):
-        self.memory = deque([],maxlen=capacity)
+        self.memory = deque([], maxlen=capacity)
 
     def push(self, *args):
         """Save a transition"""
@@ -222,8 +220,9 @@ class DQN(nn.Module):
 
         # Number of Linear input connections depends on output of conv2d layers
         # and therefore the input image size, so compute it.
-        def conv2d_size_out(size, kernel_size = 5, stride = 2):
-            return (size - (kernel_size - 1) - 1) // stride  + 1
+        def conv2d_size_out(size, kernel_size=5, stride=2):
+            return (size - (kernel_size - 1) - 1) // stride + 1
+
         convw = conv2d_size_out(conv2d_size_out(conv2d_size_out(w)))
         convh = conv2d_size_out(conv2d_size_out(conv2d_size_out(h)))
         linear_input_size = convw * convh * 32
@@ -250,7 +249,7 @@ class DQN(nn.Module):
 #
 
 resize = T.Compose([T.ToPILImage(),
-                    T.Resize(40, interpolation=Image.CUBIC),
+                    T.Resize(40, interpolation=InterpolationMode.BILINEAR),
                     T.ToTensor()])
 
 
@@ -259,13 +258,14 @@ def get_cart_location(screen_width):
     scale = screen_width / world_width
     return int(env.state[0] * scale + screen_width / 2.0)  # MIDDLE OF CART
 
+
 def get_screen():
     # Returned screen requested by gym is 400x600x3, but is sometimes larger
     # such as 800x1200x3. Transpose it into torch order (CHW).
     screen = env.render().transpose((2, 0, 1))
     # Cart is in the lower half, so strip off the top and bottom of the screen
     _, screen_height, screen_width = screen.shape
-    screen = screen[:, int(screen_height*0.4):int(screen_height * 0.8)]
+    screen = screen[:, int(screen_height * 0.4):int(screen_height * 0.8)]
     view_width = int(screen_width * 0.6)
     cart_location = get_cart_location(screen_width)
     if cart_location < view_width // 2:
@@ -291,7 +291,6 @@ plt.imshow(get_screen().cpu().squeeze(0).permute(1, 2, 0).numpy(),
            interpolation='none')
 plt.title('Example extracted screen')
 plt.show()
-
 
 ######################################################################
 # Training
@@ -339,7 +338,6 @@ target_net.eval()
 optimizer = optim.RMSprop(policy_net.parameters())
 memory = ReplayMemory(10000)
 
-
 steps_done = 0
 
 
@@ -347,7 +345,7 @@ def select_action(state):
     global steps_done
     sample = random.random()
     eps_threshold = EPS_END + (EPS_START - EPS_END) * \
-        math.exp(-1. * steps_done / EPS_DECAY)
+                    math.exp(-1. * steps_done / EPS_DECAY)
     steps_done += 1
     if sample > eps_threshold:
         with torch.no_grad():
@@ -412,9 +410,9 @@ def optimize_model():
     # Compute a mask of non-final states and concatenate the batch elements
     # (a final state would've been the one after which simulation ended)
     non_final_mask = torch.tensor(tuple(map(lambda s: s is not None,
-                                          batch.next_state)), device=device, dtype=torch.bool)
+                                            batch.next_state)), device=device, dtype=torch.bool)
     non_final_next_states = torch.cat([s for s in batch.next_state
-                                                if s is not None])
+                                       if s is not None])
     state_batch = torch.cat(batch.state)
     action_batch = torch.cat(batch.action)
     reward_batch = torch.cat(batch.reward)
