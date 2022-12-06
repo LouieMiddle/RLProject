@@ -1,72 +1,66 @@
-import numpy as np
-import torch
 import gym
-import pybullet_envs
-import argparse
-import os
-import time
+from gym import error, spaces, utils
 
-import ReplayBuffer
-import TD3
+from agents import DDPG_Agent, TD3_Agent
+from utils import *
+import torch
+import numpy as np
+import matplotlib.pyplot as plt
+from gym.utils import seeding
+i
+env = gym.make('Pendulum-v1')
 
+###### SEED  ######
+seed = 10
+env.seed(seed)
+torch.manual_seed(seed)
+np.random.seed(seed)
+##################
 
-def evaluate_policy(policy, eval_episodes=10):
-    avg_reward = 0.
-    for _ in range(eval_episodes):
-        obs = env.reset()
-        done = False
-        while not done:
-            action = policy.select_action(np.array(obs))
-            obs, reward, done, _ = env.step(action)
-            avg_reward += reward
+########## *** PARAMETERS *** ##########
+hidden_l1 = 350 # Size of first Hidden Layer
+hidden_l2 = 350 # Size of second Hidden Layer
+num_of_hd_layers = 2 # 1 if we want 1 Hidden Layer, 2 if we want 2 Hidden Layers
+actor_lr = 1e-4 # Actor learning rate
+critic_lr = 1e-3 # Critic learning rate
+gamma = 0.99 # Discounting factor
+tau = 1e-2 # Target update factor
+memory_size = 50000 # Memory size
+number_of_elements = 5000 # Number of elements in memory
+num_episodes = 50 # Training episodes
+batch_size = 64 # Batch size
+eval_episodes = 5 # Number of evaluation episodes
+popicy_delay = 2 # Frequency we want to update the policy
+file2save = 'DDPG_Agent1' # Name we want to save
+# file2save = 'TD3_Agent1' # Name we want to save
+directory = 'saves' # Directory where we want to save
 
-    avg_reward /= eval_episodes
+# agent = DDPG_Agent(env, hidden_l1, hidden_l2, actor_lr, critic_lr, gamma, tau, memory_size, num_of_hd_layers)
+agent = TD3_Agent(env, hidden_l1, hidden_l2, actor_lr, critic_lr, gamma, tau, memory_size, num_of_hd_layers, popicy_delay)
 
-    print(eval_episodes, avg_reward)
-    return avg_reward
+####### TRAIN AGENT #######
+fill_memory(env, number_of_elements, agent)
+train(agent, env, num_episodes, batch_size, file2save, directory)
 
+######### EVALUATE AGENT #########
+agent.load(file2save, directory)
+evaluate_agent(agent, env, eval_episodes, render=True)
 
-if __name__ == "__main__":
+"""If we want to train multiple agents with different parameters and compare their results,
+we can store 'avg_rewards' in some variable and plot them"""
 
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--policy_name", default="TD3")  # Policy name
-    parser.add_argument("--env_name", default="HalfCheetahBulletEnv-v0")  # OpenAI gym environment name
-    parser.add_argument("--seed", default=0, type=int)  # Sets Gym, PyTorch and Numpy seeds
-    parser.add_argument("--filename",
-                        default="TD3_HalfCheetahBulletEnv-v0_0")  # Model filename prefix e.g. "TD3_HalfCheetahBulletEnv-v0_0"
-    parser.add_argument("--eval_episodes", default=1, type=int)  # Evaluation episodes
-    parser.add_argument("--visualize", action="store_true")  # Visualize or not
+# agent1 = DDPG_Agent(env, 250, 250, 1e-4, 1e-3, 0.99, 0.01, 50000, 2)
+# agent2 = DDPG_Agent(env, 350, 350, 1e-4, 1e-3, 0.99, 0.01, 50000, 2)
+# agent3 = TD3_Agent(env, 350, 350, 1e-4, 1e-3, 0.99, 0.01, 50000, 2, 2)
 
-    args = parser.parse_args()
+# agent1_average = train(agent1, env, 50, 64, 'agent1_ddpg', 'saves')
+# agent2_average = train(agent2, env, 50, 64, 'agent2_ddpg', 'saves')
+# agent3_average = train(agent3, env, 50, 64, 'agent3_td3', 'saves')
 
-    filename = args.filename
-
-    print
-    "---------------------------------------"
-    print
-    "Loading model from: %s" % (filename)
-    print
-    "---------------------------------------"
-
-    env = gym.make(args.env_name)
-    if args.visualize:
-        env.render(mode="human")
-
-    # Set seeds
-    env.seed(args.seed)
-    torch.manual_seed(args.seed)
-    np.random.seed(args.seed)
-
-    state_dim = env.observation_space.shape[0]
-    action_dim = env.action_space.shape[0]
-    max_action = float(env.action_space.high[0])
-
-    # Initialize policy
-    if args.policy_name == "TD3":
-        policy = TD3.TD3(state_dim, action_dim, max_action)
-
-    # Load model
-    policy.load(filename, './pytorch_models/')
-
-    # Start evaluation
-    _ = evaluate_policy(policy, eval_episodes=args.eval_episodes, visualize=args.visualize)
+# plt.plot(agent1_average, label = "agent1")
+# plt.plot(agent2_average, label = "agent2")
+# plt.plot(agent3_average, label = "agent3")
+# plt.title("Compare Agents")
+# plt.xlabel('Episode')
+# plt.ylabel('Reward')
+# plt.legend(loc="upper left")
