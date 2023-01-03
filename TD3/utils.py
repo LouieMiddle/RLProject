@@ -97,7 +97,7 @@ def fill_memory(env, number_of_elements, agent):
     print("Added %i elements in Memory" % number_of_elements)
 
 
-def evaluate_agent(agent, env, eval_episodes, render=False):
+def evaluate_agent(agent, env, eval_episodes):
     # Evaluate performance of a policy after training
     avg_reward = 0
     for i in range(eval_episodes):
@@ -105,8 +105,6 @@ def evaluate_agent(agent, env, eval_episodes, render=False):
         done = False
         print("Current episode: ", i + 1)
         while not done:
-            if render:
-                env.render()
             action = agent.select_action(obs)
             obs, reward, done, info = env.step(action)
             avg_reward += reward
@@ -163,7 +161,7 @@ def train(agent, env, num_episodes, batch_size, file2save, directory):
     plt.plot()
     plt.xlabel('Episode')
     plt.ylabel('Reward')
-    plt.title('Average Reward')
+    plt.title(file2save + ' Average Reward')
     plt.legend(loc="upper left")
     plt.show()
 

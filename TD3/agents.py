@@ -7,23 +7,24 @@ from utils import OUNoise, Memory
 
 
 class DDPGAgent(object):
-    def __init__(self, env, hidden_l1, hidden_l2, actor_lr, critic_lr, gamma, tau, memory_size, num_of_hd_layers):
+    def __init__(self, env, hidden_l1, hidden_l2, actor_lr, critic_lr, gamma, tau, memory_size, num_of_hd_layers, device):
         self.gamma = gamma
         self.tau = tau
         self.num_actions = env.action_space.shape[0]
         self.num_states = env.observation_space.shape[0]
         self.ns = OUNoise(env.action_space)
+        self.device = device
 
         if num_of_hd_layers == 1:
-            self.actor = DDPGActor1(self.num_states, hidden_l1, self.num_actions)
-            self.critic = DDPGCritic1(self.num_actions + self.num_states, hidden_l1)  # output setat 1 by defauld
-            self.actor_target = DDPGActor1(self.num_states, hidden_l1, self.num_actions)
-            self.critic_target = DDPGCritic1(self.num_actions + self.num_states, hidden_l1)
+            self.actor = DDPGActor1(self.num_states, hidden_l1, self.num_actions).to(device)
+            self.critic = DDPGCritic1(self.num_actions + self.num_states, hidden_l1).to(device)
+            self.actor_target = DDPGActor1(self.num_states, hidden_l1, self.num_actions).to(device)
+            self.critic_target = DDPGCritic1(self.num_actions + self.num_states, hidden_l1).to(device)
         elif num_of_hd_layers == 2:
-            self.actor = DDPGActor2(self.num_states, hidden_l1, hidden_l2, self.num_actions)
-            self.critic = DDPGCritic2(self.num_actions + self.num_states, hidden_l1, hidden_l2)
-            self.actor_target = DDPGActor2(self.num_states, hidden_l1, hidden_l2, self.num_actions)
-            self.critic_target = DDPGCritic2(self.num_actions + self.num_states, hidden_l1, hidden_l2)
+            self.actor = DDPGActor2(self.num_states, hidden_l1, hidden_l2, self.num_actions).to(device)
+            self.critic = DDPGCritic2(self.num_actions + self.num_states, hidden_l1, hidden_l2).to(device)
+            self.actor_target = DDPGActor2(self.num_states, hidden_l1, hidden_l2, self.num_actions).to(device)
+            self.critic_target = DDPGCritic2(self.num_actions + self.num_states, hidden_l1, hidden_l2).to(device)
         else:
             print("Wrong number of hidden layers. Use 1 or 2.")
 
@@ -45,9 +46,9 @@ class DDPGAgent(object):
            *** IN TRAINING MODE SET NOISE = TRUE
         """
 
-        state = torch.Tensor(state)
+        state = torch.tensor(state, dtype=torch.float32, device=self.device)
         action = self.actor.forward(state)
-        action = action.detach().numpy()
+        action = action.to('cpu').detach().numpy()
 
         if noise:
             action = self.ns.get_action(action, step)
@@ -68,11 +69,11 @@ class DDPGAgent(object):
         # therefore lead to inefficient learning. Taking random samples from replay memory breaks this correlation.
 
         # Convert samples to Tensors
-        action = torch.FloatTensor(action)
-        state = torch.FloatTensor(state)
-        new_state = torch.FloatTensor(new_state)
-        reward = torch.FloatTensor(reward)
-        done = torch.Tensor(done)
+        action = torch.tensor(action, dtype=torch.float32, device=self.device)
+        state = torch.tensor(state, dtype=torch.float32, device=self.device)
+        new_state = torch.tensor(new_state, dtype=torch.float32, device=self.device)
+        reward = torch.tensor(reward, dtype=torch.float32, device=self.device)
+        done = torch.tensor(done, dtype=torch.float32, device=self.device)
 
         new_action = self.actor_target(new_state).detach()  # mu_target
         Q_target = self.critic_target(new_state, new_action)  # Q_target
@@ -112,8 +113,7 @@ class DDPGAgent(object):
 
 class TD3Agent(object):
     def __init__(self, env, hidden_l1, hidden_l2, actor_lr, critic_lr, gamma, tau, memory_size, num_of_hd_layers,
-                 popicy_delay):
-
+                 popicy_delay, device):
         self.gamma = gamma
         self.tau = tau
         self.num_actions = env.action_space.shape[0]
@@ -122,17 +122,18 @@ class TD3Agent(object):
         # TD3 updates the policy (and target networks) less frequently than the Q-function
         self.popicy_delay = popicy_delay
         self.it = 0
+        self.device = device
 
         if num_of_hd_layers == 1:
-            self.actor = TD3Actor1(self.num_states, hidden_l1, self.num_actions)
-            self.critic = TD3Critic1(self.num_actions + self.num_states, hidden_l1)
-            self.actor_target = TD3Actor1(self.num_states, hidden_l1, self.num_actions)
-            self.critic_target = TD3Critic1(self.num_actions + self.num_states, hidden_l1)
+            self.actor = TD3Actor1(self.num_states, hidden_l1, self.num_actions).to(device)
+            self.critic = TD3Critic1(self.num_actions + self.num_states, hidden_l1).to(device)
+            self.actor_target = TD3Actor1(self.num_states, hidden_l1, self.num_actions).to(device)
+            self.critic_target = TD3Critic1(self.num_actions + self.num_states, hidden_l1).to(device)
         elif num_of_hd_layers == 2:
-            self.actor = TD3Actor2(self.num_states, hidden_l1, hidden_l2, self.num_actions)
-            self.critic = TD3Critic2(self.num_actions + self.num_states, hidden_l1, hidden_l2)
-            self.actor_target = TD3Actor2(self.num_states, hidden_l1, hidden_l2, self.num_actions)
-            self.critic_target = TD3Critic2(self.num_actions + self.num_states, hidden_l1, hidden_l2)
+            self.actor = TD3Actor2(self.num_states, hidden_l1, hidden_l2, self.num_actions).to(device)
+            self.critic = TD3Critic2(self.num_actions + self.num_states, hidden_l1, hidden_l2).to(device)
+            self.actor_target = TD3Actor2(self.num_states, hidden_l1, hidden_l2, self.num_actions).to(device)
+            self.critic_target = TD3Critic2(self.num_actions + self.num_states, hidden_l1, hidden_l2).to(device)
         else:
             print("Wrong number of hidden layers. Use 1 or 2.")
 
@@ -173,11 +174,11 @@ class TD3Agent(object):
         # therefore lead to inefficient learning. Taking random samples from replay memory breaks this correlation.
 
         # Convert samples to Tensors
-        action = torch.FloatTensor(action)
-        state = torch.FloatTensor(state)
-        new_state = torch.FloatTensor(new_state)
-        reward = torch.FloatTensor(reward)
-        done = torch.Tensor(done)
+        action = torch.tensor(action, dtype=torch.float32, device=self.device)
+        state = torch.tensor(state, dtype=torch.float32, device=self.device)
+        new_state = torch.tensor(new_state, dtype=torch.float32, device=self.device)
+        reward = torch.tensor(reward, dtype=torch.float32, device=self.device)
+        done = torch.tensor(done, dtype=torch.float32, device=self.device)
 
         # Compute target_actions
         new_action = self.actor_target(new_state).detach()
