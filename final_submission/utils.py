@@ -30,6 +30,23 @@ def plot_learning_curve(x, scores, figure_file):
     plt.title('Running average of previous 20 scores')
     plt.savefig(figure_file)
 
+
+def compare_agents(x, ddpg_scores, td3_scores, figure_file):
+    ddpg_running_avg = np.zeros(len(ddpg_scores))
+    td3_running_avg = np.zeros(len(td3_scores))
+    for i in range(len(ddpg_running_avg)):
+        ddpg_running_avg[i] = np.mean(ddpg_scores[max(0, i - 20):(i + 1)])
+        td3_running_avg[i] = np.mean(td3_scores[max(0, i - 20):(i + 1)])
+
+    plt.plot(x, ddpg_running_avg, label="ddpg_avg_rewards")
+    plt.plot(x, td3_running_avg, label="td3_avg_rewards")
+    plt.title("Compare Agents")
+    plt.xlabel('Episode')
+    plt.ylabel('Reward')
+    plt.legend(loc="upper left")
+    plt.savefig(figure_file)
+
+
 def train_agent(env, n_episodes, agent, figure_file):
     best_score = env.reward_range[0]
     score_history = []
@@ -56,3 +73,5 @@ def train_agent(env, n_episodes, agent, figure_file):
 
     x = [i + 1 for i in range(n_episodes)]
     plot_learning_curve(x, score_history, figure_file)
+
+    return score_history

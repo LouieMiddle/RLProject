@@ -26,23 +26,23 @@ class TD3Agent:
 
         self.actor = ActorNetwork(alpha, input_dims, layer1_size,
                                   layer2_size, n_actions=n_actions,
-                                  name='actor', chkpt_dir='tmp/td3', agent_type='td3')
+                                  name='actor', chkpt_dir='tmp/td3', agent_type='_td3')
         self.critic_1 = CriticNetwork(beta, input_dims, layer1_size,
                                       layer2_size, n_actions=n_actions,
-                                      name='critic_1', chkpt_dir='tmp/td3', agent_type='td3')
+                                      name='critic_1', chkpt_dir='tmp/td3', agent_type='_td3')
         self.critic_2 = CriticNetwork(beta, input_dims, layer1_size,
                                       layer2_size, n_actions=n_actions,
-                                      name='critic_2', chkpt_dir='tmp/td3', agent_type='td3')
+                                      name='critic_2', chkpt_dir='tmp/td3', agent_type='_td3')
 
         self.target_actor = ActorNetwork(alpha, input_dims, layer1_size,
                                          layer2_size, n_actions=n_actions,
-                                         name='target_actor', chkpt_dir='tmp/td3', agent_type='td3')
+                                         name='target_actor', chkpt_dir='tmp/td3', agent_type='_td3')
         self.target_critic_1 = CriticNetwork(beta, input_dims, layer1_size,
                                              layer2_size, n_actions=n_actions,
-                                             name='target_critic_1', chkpt_dir='tmp/td3', agent_type='td3')
+                                             name='target_critic_1', chkpt_dir='tmp/td3', agent_type='_td3')
         self.target_critic_2 = CriticNetwork(beta, input_dims, layer1_size,
                                              layer2_size, n_actions=n_actions,
-                                             name='target_critic_2', chkpt_dir='tmp/td3', agent_type='td3')
+                                             name='target_critic_2', chkpt_dir='tmp/td3', agent_type='_td3')
 
         self.noise = noise
         self.update_network_parameters(tau=1)
@@ -187,17 +187,17 @@ class DDPGAgent:
         self.noise = OUActionNoise(mu=np.zeros(n_actions))
 
         self.actor = ActorNetwork(alpha, input_dims, layer1_size, layer2_size,
-                                  n_actions=n_actions, name='actor', chkpt_dir='tmp/ddpg', agent_type='ddpg')
+                                  n_actions=n_actions, name='actor', chkpt_dir='tmp/ddpg', agent_type='_ddpg')
         self.critic = CriticNetwork(beta, input_dims, layer1_size, layer2_size,
-                                    n_actions=n_actions, name='critic', chkpt_dir='tmp/ddpg', agent_type='ddpg')
+                                    n_actions=n_actions, name='critic', chkpt_dir='tmp/ddpg', agent_type='_ddpg')
 
         self.target_actor = ActorNetwork(alpha, input_dims, layer1_size, layer2_size,
                                          n_actions=n_actions, name='target_actor', chkpt_dir='tmp/ddpg',
-                                         agent_type='ddpg')
+                                         agent_type='_ddpg')
 
         self.target_critic = CriticNetwork(beta, input_dims, layer1_size, layer2_size,
                                            n_actions=n_actions, name='target_critic', chkpt_dir='tmp/ddpg',
-                                           agent_type='ddpg')
+                                           agent_type='_ddpg')
 
         self.update_network_parameters(tau=1)
 
