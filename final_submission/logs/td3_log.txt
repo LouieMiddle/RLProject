@@ -1,0 +1,2640 @@
+C:\Users\Louie\anaconda3\envs\RLProject\python.exe C:\Users\Louie\Documents\GitHub\RLProject\TD3_good\main_td3.py
+
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  0 score -272.19 trailing 20 games avg -272.186
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  1 score -121.70 trailing 20 games avg -196.945
+episode  2 score -336.71 trailing 20 games avg -243.535
+episode  3 score -113.65 trailing 20 games avg -211.064
+episode  4 score -245.02 trailing 20 games avg -217.856
+episode  5 score -256.52 trailing 20 games avg -224.301
+episode  6 score -68.65 trailing 20 games avg -202.065
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  7 score -128.91 trailing 20 games avg -192.921
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  8 score -93.82 trailing 20 games avg -181.909
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  9 score -125.69 trailing 20 games avg -176.288
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  10 score -133.67 trailing 20 games avg -172.413
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  11 score -166.17 trailing 20 games avg -171.893
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  12 score -110.48 trailing 20 games avg -167.169
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  13 score -116.84 trailing 20 games avg -163.574
+episode  14 score -226.71 trailing 20 games avg -167.783
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  15 score 4.51 trailing 20 games avg -157.015
+episode  16 score -251.10 trailing 20 games avg -162.549
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  17 score 5.95 trailing 20 games avg -153.188
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  18 score -46.86 trailing 20 games avg -147.591
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  19 score 20.71 trailing 20 games avg -139.176
+episode  20 score -385.53 trailing 20 games avg -144.843
+episode  21 score -41.64 trailing 20 games avg -140.840
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  22 score -135.13 trailing 20 games avg -130.761
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  23 score 12.58 trailing 20 games avg -124.449
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  24 score -217.98 trailing 20 games avg -123.097
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  25 score -106.51 trailing 20 games avg -115.596
+episode  26 score -84.93 trailing 20 games avg -116.410
+episode  27 score -174.54 trailing 20 games avg -118.692
+episode  28 score -114.54 trailing 20 games avg -119.728
+episode  29 score -64.16 trailing 20 games avg -116.651
+episode  30 score -132.30 trailing 20 games avg -116.583
+episode  31 score -296.73 trailing 20 games avg -123.111
+episode  32 score -337.25 trailing 20 games avg -134.449
+episode  33 score -323.87 trailing 20 games avg -144.801
+episode  34 score -239.33 trailing 20 games avg -145.432
+episode  35 score -97.35 trailing 20 games avg -150.525
+episode  36 score -101.51 trailing 20 games avg -143.046
+episode  37 score -71.72 trailing 20 games avg -146.930
+episode  38 score -28.33 trailing 20 games avg -146.003
+episode  39 score -209.33 trailing 20 games avg -157.506
+episode  40 score -286.41 trailing 20 games avg -152.550
+episode  41 score -217.83 trailing 20 games avg -161.359
+episode  42 score -200.97 trailing 20 games avg -164.652
+episode  43 score -25.70 trailing 20 games avg -166.565
+episode  44 score -104.48 trailing 20 games avg -160.891
+episode  45 score -270.48 trailing 20 games avg -169.089
+episode  46 score -74.55 trailing 20 games avg -168.570
+episode  47 score -38.00 trailing 20 games avg -161.743
+episode  48 score -355.15 trailing 20 games avg -173.773
+episode  49 score -326.71 trailing 20 games avg -186.901
+episode  50 score -150.14 trailing 20 games avg -187.793
+episode  51 score -123.62 trailing 20 games avg -179.137
+episode  52 score -243.75 trailing 20 games avg -174.462
+episode  53 score -251.57 trailing 20 games avg -170.847
+episode  54 score -162.08 trailing 20 games avg -166.984
+episode  55 score -149.73 trailing 20 games avg -169.603
+episode  56 score -257.68 trailing 20 games avg -177.411
+episode  57 score -160.31 trailing 20 games avg -181.841
+episode  58 score -186.69 trailing 20 games avg -189.759
+episode  59 score -171.48 trailing 20 games avg -187.866
+episode  60 score -170.26 trailing 20 games avg -182.059
+episode  61 score -160.32 trailing 20 games avg -179.183
+episode  62 score -155.03 trailing 20 games avg -176.886
+episode  63 score -182.40 trailing 20 games avg -184.721
+episode  64 score -75.11 trailing 20 games avg -183.253
+episode  65 score -151.35 trailing 20 games avg -177.296
+episode  66 score -165.38 trailing 20 games avg -181.838
+episode  67 score -147.82 trailing 20 games avg -187.329
+episode  68 score -195.94 trailing 20 games avg -179.368
+episode  69 score -141.12 trailing 20 games avg -170.089
+episode  70 score -75.28 trailing 20 games avg -166.346
+episode  71 score -132.99 trailing 20 games avg -166.815
+episode  72 score -101.48 trailing 20 games avg -159.701
+episode  73 score -20.47 trailing 20 games avg -148.146
+episode  74 score -93.89 trailing 20 games avg -144.737
+episode  75 score -119.69 trailing 20 games avg -143.235
+episode  76 score -179.87 trailing 20 games avg -139.344
+episode  77 score -127.35 trailing 20 games avg -137.697
+episode  78 score -159.14 trailing 20 games avg -136.319
+episode  79 score -104.26 trailing 20 games avg -132.958
+episode  80 score -140.26 trailing 20 games avg -131.458
+episode  81 score -128.98 trailing 20 games avg -129.891
+episode  82 score -120.30 trailing 20 games avg -128.154
+episode  83 score -170.49 trailing 20 games avg -127.559
+episode  84 score -163.83 trailing 20 games avg -131.994
+episode  85 score -173.08 trailing 20 games avg -133.081
+episode  86 score -94.61 trailing 20 games avg -129.542
+episode  87 score -262.34 trailing 20 games avg -135.269
+episode  88 score -241.72 trailing 20 games avg -137.558
+episode  89 score -64.39 trailing 20 games avg -133.721
+episode  90 score -203.57 trailing 20 games avg -140.136
+episode  91 score -48.83 trailing 20 games avg -135.927
+episode  92 score -310.65 trailing 20 games avg -146.386
+episode  93 score -32.28 trailing 20 games avg -146.976
+episode  94 score -226.34 trailing 20 games avg -153.598
+episode  95 score -174.58 trailing 20 games avg -156.343
+episode  96 score -40.47 trailing 20 games avg -149.373
+episode  97 score -171.42 trailing 20 games avg -151.577
+episode  98 score -260.45 trailing 20 games avg -156.642
+episode  99 score -91.50 trailing 20 games avg -156.004
+episode  100 score -54.62 trailing 20 games avg -151.722
+episode  101 score -49.06 trailing 20 games avg -147.727
+episode  102 score -52.52 trailing 20 games avg -144.338
+episode  103 score -120.64 trailing 20 games avg -141.845
+episode  104 score -117.32 trailing 20 games avg -139.520
+episode  105 score -211.51 trailing 20 games avg -141.441
+episode  106 score -68.61 trailing 20 games avg -140.141
+episode  107 score -17.99 trailing 20 games avg -127.924
+episode  108 score -127.82 trailing 20 games avg -122.229
+episode  109 score -99.40 trailing 20 games avg -123.979
+episode  110 score -65.51 trailing 20 games avg -117.076
+episode  111 score -69.85 trailing 20 games avg -118.127
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  112 score -39.06 trailing 20 games avg -104.548
+episode  113 score -35.39 trailing 20 games avg -104.703
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  114 score -107.20 trailing 20 games avg -98.747
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  115 score -79.14 trailing 20 games avg -93.975
+episode  116 score -88.39 trailing 20 games avg -96.371
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  117 score -37.48 trailing 20 games avg -89.674
+episode  118 score -284.92 trailing 20 games avg -90.897
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  119 score 212.34 trailing 20 games avg -75.705
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  120 score -45.50 trailing 20 games avg -75.249
+episode  121 score -100.45 trailing 20 games avg -77.818
+episode  122 score -62.56 trailing 20 games avg -78.320
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  123 score -32.90 trailing 20 games avg -73.933
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  124 score -48.17 trailing 20 games avg -70.475
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  125 score 188.04 trailing 20 games avg -50.498
+episode  126 score -121.54 trailing 20 games avg -53.144
+episode  127 score -67.79 trailing 20 games avg -55.634
+episode  128 score -32.31 trailing 20 games avg -50.858
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  129 score -78.58 trailing 20 games avg -49.817
+episode  130 score -70.69 trailing 20 games avg -50.076
+episode  131 score -107.25 trailing 20 games avg -51.946
+episode  132 score -86.13 trailing 20 games avg -54.300
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  133 score 226.08 trailing 20 games avg -41.226
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  134 score -105.14 trailing 20 games avg -41.123
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  135 score -72.02 trailing 20 games avg -40.767
+episode  136 score -135.70 trailing 20 games avg -43.132
+episode  137 score -109.78 trailing 20 games avg -46.747
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  138 score -83.06 trailing 20 games avg -36.654
+episode  139 score -159.75 trailing 20 games avg -55.259
+episode  140 score -123.32 trailing 20 games avg -59.150
+episode  141 score -146.00 trailing 20 games avg -61.427
+episode  142 score -83.46 trailing 20 games avg -62.472
+episode  143 score -62.34 trailing 20 games avg -63.945
+episode  144 score -75.91 trailing 20 games avg -65.332
+episode  145 score -114.23 trailing 20 games avg -80.445
+episode  146 score -40.60 trailing 20 games avg -76.399
+episode  147 score -85.99 trailing 20 games avg -77.309
+episode  148 score -101.76 trailing 20 games avg -80.781
+episode  149 score -80.66 trailing 20 games avg -80.885
+episode  150 score -107.39 trailing 20 games avg -82.720
+episode  151 score -157.04 trailing 20 games avg -85.210
+episode  152 score -151.20 trailing 20 games avg -88.463
+episode  153 score -148.90 trailing 20 games avg -107.212
+episode  154 score -190.07 trailing 20 games avg -111.459
+episode  155 score -155.35 trailing 20 games avg -115.625
+episode  156 score -63.94 trailing 20 games avg -112.037
+episode  157 score -39.43 trailing 20 games avg -108.519
+episode  158 score -108.15 trailing 20 games avg -109.774
+episode  159 score -33.12 trailing 20 games avg -103.442
+episode  160 score -53.55 trailing 20 games avg -99.954
+episode  161 score -82.89 trailing 20 games avg -96.798
+episode  162 score -157.79 trailing 20 games avg -100.515
+episode  163 score -233.17 trailing 20 games avg -109.057
+episode  164 score 8.17 trailing 20 games avg -104.853
+episode  165 score -9.50 trailing 20 games avg -99.616
+episode  166 score 48.13 trailing 20 games avg -95.180
+episode  167 score -200.97 trailing 20 games avg -100.929
+episode  168 score -195.54 trailing 20 games avg -105.617
+episode  169 score -85.55 trailing 20 games avg -105.862
+episode  170 score -48.34 trailing 20 games avg -102.910
+episode  171 score -68.46 trailing 20 games avg -98.480
+episode  172 score -74.32 trailing 20 games avg -94.637
+episode  173 score -64.16 trailing 20 games avg -90.399
+episode  174 score -53.97 trailing 20 games avg -83.595
+episode  175 score -45.49 trailing 20 games avg -78.102
+episode  176 score -36.78 trailing 20 games avg -76.744
+episode  177 score -91.27 trailing 20 games avg -79.336
+episode  178 score -114.00 trailing 20 games avg -79.629
+episode  179 score 182.47 trailing 20 games avg -68.849
+episode  180 score -64.90 trailing 20 games avg -69.417
+episode  181 score -201.30 trailing 20 games avg -75.337
+episode  182 score 83.71 trailing 20 games avg -63.262
+episode  183 score 183.04 trailing 20 games avg -42.452
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  184 score 210.14 trailing 20 games avg -32.354
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  185 score 248.83 trailing 20 games avg -19.437
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  186 score 236.80 trailing 20 games avg -10.004
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  187 score -78.36 trailing 20 games avg -3.873
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  188 score 196.09 trailing 20 games avg 15.708
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  189 score 236.83 trailing 20 games avg 31.827
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  190 score 157.76 trailing 20 games avg 42.133
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  191 score 68.96 trailing 20 games avg 49.003
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  192 score 219.66 trailing 20 games avg 63.703
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  193 score 23.70 trailing 20 games avg 68.095
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  194 score 26.66 trailing 20 games avg 72.127
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  195 score -3.89 trailing 20 games avg 74.207
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  196 score 21.11 trailing 20 games avg 77.102
+episode  197 score -155.42 trailing 20 games avg 73.895
+episode  198 score -91.31 trailing 20 games avg 75.029
+episode  199 score -2.30 trailing 20 games avg 65.791
+episode  200 score -3.64 trailing 20 games avg 68.854
+episode  201 score -137.57 trailing 20 games avg 72.040
+episode  202 score -133.30 trailing 20 games avg 61.190
+episode  203 score -8.86 trailing 20 games avg 51.595
+episode  204 score 41.33 trailing 20 games avg 43.155
+episode  205 score -138.38 trailing 20 games avg 23.795
+episode  206 score 249.02 trailing 20 games avg 24.406
+episode  207 score 257.68 trailing 20 games avg 41.207
+episode  208 score -137.34 trailing 20 games avg 24.536
+episode  209 score -26.59 trailing 20 games avg 11.365
+episode  210 score 245.53 trailing 20 games avg 15.753
+episode  211 score -14.97 trailing 20 games avg 11.556
+episode  212 score 30.17 trailing 20 games avg 2.082
+episode  213 score 225.45 trailing 20 games avg 12.169
+episode  214 score -113.89 trailing 20 games avg 5.142
+episode  215 score -162.13 trailing 20 games avg -2.770
+episode  216 score -210.26 trailing 20 games avg -14.339
+episode  217 score -141.79 trailing 20 games avg -13.657
+episode  218 score -197.31 trailing 20 games avg -18.958
+episode  219 score 275.16 trailing 20 games avg -5.085
+episode  220 score -123.48 trailing 20 games avg -11.077
+episode  221 score -163.03 trailing 20 games avg -12.350
+episode  222 score -40.21 trailing 20 games avg -7.695
+episode  223 score -83.54 trailing 20 games avg -11.429
+episode  224 score -112.64 trailing 20 games avg -19.128
+episode  225 score -97.30 trailing 20 games avg -17.074
+episode  226 score -92.04 trailing 20 games avg -34.127
+episode  227 score -42.60 trailing 20 games avg -49.140
+episode  228 score 154.37 trailing 20 games avg -34.555
+episode  229 score -80.88 trailing 20 games avg -37.269
+episode  230 score -40.93 trailing 20 games avg -51.592
+episode  231 score 12.35 trailing 20 games avg -50.226
+episode  232 score -47.07 trailing 20 games avg -54.089
+episode  233 score -36.44 trailing 20 games avg -67.183
+episode  234 score 146.27 trailing 20 games avg -54.175
+episode  235 score -35.24 trailing 20 games avg -47.831
+episode  236 score -5.57 trailing 20 games avg -37.596
+episode  237 score 269.42 trailing 20 games avg -17.036
+episode  238 score -29.77 trailing 20 games avg -8.658
+episode  239 score -78.81 trailing 20 games avg -26.357
+episode  240 score 195.39 trailing 20 games avg -10.413
+episode  241 score -99.12 trailing 20 games avg -7.217
+episode  242 score 288.87 trailing 20 games avg 9.237
+episode  243 score -50.26 trailing 20 games avg 10.901
+episode  244 score 35.38 trailing 20 games avg 18.302
+episode  245 score -8.31 trailing 20 games avg 22.751
+episode  246 score 3.36 trailing 20 games avg 27.521
+episode  247 score 212.39 trailing 20 games avg 40.270
+episode  248 score 181.06 trailing 20 games avg 41.604
+episode  249 score -7.46 trailing 20 games avg 45.275
+episode  250 score 170.61 trailing 20 games avg 55.853
+episode  251 score 174.03 trailing 20 games avg 63.937
+episode  252 score -44.82 trailing 20 games avg 64.049
+episode  253 score -14.70 trailing 20 games avg 65.136
+episode  254 score -79.81 trailing 20 games avg 53.832
+episode  255 score -148.15 trailing 20 games avg 48.187
+episode  256 score 15.27 trailing 20 games avg 49.229
+episode  257 score -4.94 trailing 20 games avg 35.511
+episode  258 score 18.06 trailing 20 games avg 37.903
+episode  259 score 29.44 trailing 20 games avg 43.315
+episode  260 score -13.38 trailing 20 games avg 32.876
+episode  261 score 277.47 trailing 20 games avg 51.706
+episode  262 score 234.66 trailing 20 games avg 48.995
+episode  263 score 27.06 trailing 20 games avg 52.861
+episode  264 score 43.85 trailing 20 games avg 53.285
+episode  265 score -9.71 trailing 20 games avg 53.215
+episode  266 score 38.89 trailing 20 games avg 54.992
+episode  267 score -7.12 trailing 20 games avg 44.017
+episode  268 score -1.78 trailing 20 games avg 34.875
+episode  269 score -21.53 trailing 20 games avg 34.171
+episode  270 score 173.67 trailing 20 games avg 34.324
+episode  271 score 196.19 trailing 20 games avg 35.432
+episode  272 score -23.09 trailing 20 games avg 36.518
+episode  273 score 241.67 trailing 20 games avg 49.337
+episode  274 score -2.61 trailing 20 games avg 53.197
+episode  275 score -69.60 trailing 20 games avg 57.124
+episode  276 score 7.10 trailing 20 games avg 56.716
+episode  277 score 242.48 trailing 20 games avg 69.086
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  278 score 235.51 trailing 20 games avg 79.958
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  279 score 223.43 trailing 20 games avg 89.658
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  280 score -3.27 trailing 20 games avg 90.164
+episode  281 score -90.69 trailing 20 games avg 71.756
+episode  282 score 25.63 trailing 20 games avg 61.304
+episode  283 score -19.92 trailing 20 games avg 58.955
+episode  284 score -32.71 trailing 20 games avg 55.127
+episode  285 score 309.34 trailing 20 games avg 71.079
+episode  286 score 45.17 trailing 20 games avg 71.394
+episode  287 score 34.88 trailing 20 games avg 73.493
+episode  288 score -10.45 trailing 20 games avg 73.060
+episode  289 score 248.70 trailing 20 games avg 86.572
+episode  290 score 238.17 trailing 20 games avg 89.797
+episode  291 score -63.04 trailing 20 games avg 76.835
+episode  292 score 203.81 trailing 20 games avg 88.180
+episode  293 score -76.85 trailing 20 games avg 72.255
+episode  294 score 31.61 trailing 20 games avg 73.966
+episode  295 score 242.57 trailing 20 games avg 89.575
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  296 score 193.54 trailing 20 games avg 98.896
+episode  297 score -14.21 trailing 20 games avg 86.062
+episode  298 score -5.52 trailing 20 games avg 74.011
+episode  299 score 3.16 trailing 20 games avg 62.997
+episode  300 score 87.31 trailing 20 games avg 67.526
+episode  301 score 135.26 trailing 20 games avg 78.824
+episode  302 score 246.34 trailing 20 games avg 89.859
+episode  303 score 138.16 trailing 20 games avg 97.764
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  304 score 303.42 trailing 20 games avg 114.570
+episode  305 score 249.88 trailing 20 games avg 111.597
+episode  306 score -84.85 trailing 20 games avg 105.095
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  307 score 246.74 trailing 20 games avg 115.689
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  308 score 167.99 trailing 20 games avg 124.610
+episode  309 score 172.35 trailing 20 games avg 120.793
+episode  310 score 258.04 trailing 20 games avg 121.786
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  311 score 311.15 trailing 20 games avg 140.495
+episode  312 score 182.31 trailing 20 games avg 139.420
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  313 score 190.42 trailing 20 games avg 152.783
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  314 score 222.67 trailing 20 games avg 162.336
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  315 score 246.53 trailing 20 games avg 162.534
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  316 score 230.82 trailing 20 games avg 164.398
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  317 score 224.00 trailing 20 games avg 176.308
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  318 score 204.05 trailing 20 games avg 186.787
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  319 score 208.61 trailing 20 games avg 197.059
+episode  320 score -110.45 trailing 20 games avg 187.171
+episode  321 score 257.51 trailing 20 games avg 193.284
+episode  322 score 102.24 trailing 20 games avg 186.079
+episode  323 score 195.56 trailing 20 games avg 188.948
+episode  324 score 231.52 trailing 20 games avg 185.353
+episode  325 score 157.76 trailing 20 games avg 180.747
+episode  326 score 239.39 trailing 20 games avg 196.959
+episode  327 score 215.42 trailing 20 games avg 195.393
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  328 score 232.55 trailing 20 games avg 198.621
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  329 score 241.09 trailing 20 games avg 202.059
+episode  330 score 61.07 trailing 20 games avg 192.210
+episode  331 score 248.87 trailing 20 games avg 189.096
+episode  332 score -4.89 trailing 20 games avg 179.736
+episode  333 score 222.40 trailing 20 games avg 181.335
+episode  334 score 200.56 trailing 20 games avg 180.229
+episode  335 score 160.93 trailing 20 games avg 175.949
+episode  336 score -3.23 trailing 20 games avg 164.247
+episode  337 score 223.86 trailing 20 games avg 164.240
+episode  338 score 229.92 trailing 20 games avg 165.534
+episode  339 score 244.25 trailing 20 games avg 167.316
+episode  340 score 248.97 trailing 20 games avg 185.287
+episode  341 score 240.13 trailing 20 games avg 184.417
+episode  342 score 234.79 trailing 20 games avg 191.045
+episode  343 score 228.50 trailing 20 games avg 192.692
+episode  344 score 218.50 trailing 20 games avg 192.041
+episode  345 score 261.58 trailing 20 games avg 197.232
+episode  346 score 283.07 trailing 20 games avg 199.416
+episode  347 score 234.01 trailing 20 games avg 200.346
+episode  348 score 255.84 trailing 20 games avg 201.510
+episode  349 score 222.29 trailing 20 games avg 200.570
+episode  350 score 12.59 trailing 20 games avg 198.146
+episode  351 score 263.07 trailing 20 games avg 198.856
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  352 score 267.04 trailing 20 games avg 212.452
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  353 score 238.50 trailing 20 games avg 213.257
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  354 score 225.49 trailing 20 games avg 214.504
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  355 score 266.03 trailing 20 games avg 219.759
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  356 score 269.61 trailing 20 games avg 233.401
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  357 score 229.82 trailing 20 games avg 233.699
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  358 score 272.98 trailing 20 games avg 235.852
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  359 score 262.39 trailing 20 games avg 236.759
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  360 score 264.04 trailing 20 games avg 237.512
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  361 score 258.03 trailing 20 games avg 238.407
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  362 score 276.33 trailing 20 games avg 240.485
+episode  363 score 156.71 trailing 20 games avg 236.895
+episode  364 score 251.76 trailing 20 games avg 238.558
+episode  365 score 279.42 trailing 20 games avg 239.451
+episode  366 score 280.18 trailing 20 games avg 239.306
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  367 score 281.96 trailing 20 games avg 241.704
+episode  368 score -139.10 trailing 20 games avg 221.957
+episode  369 score 244.18 trailing 20 games avg 223.052
+episode  370 score 274.56 trailing 20 games avg 236.150
+episode  371 score 272.20 trailing 20 games avg 236.607
+episode  372 score 269.64 trailing 20 games avg 236.737
+episode  373 score 269.62 trailing 20 games avg 238.293
+episode  374 score 275.48 trailing 20 games avg 240.792
+episode  375 score 268.90 trailing 20 games avg 240.936
+episode  376 score 207.95 trailing 20 games avg 237.853
+episode  377 score 260.97 trailing 20 games avg 239.410
+episode  378 score 247.77 trailing 20 games avg 238.150
+episode  379 score 272.35 trailing 20 games avg 238.648
+episode  380 score 270.57 trailing 20 games avg 238.974
+episode  381 score 278.47 trailing 20 games avg 239.996
+episode  382 score 274.78 trailing 20 games avg 239.919
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  383 score 246.91 trailing 20 games avg 244.429
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  384 score 259.87 trailing 20 games avg 244.834
+episode  385 score 198.81 trailing 20 games avg 240.804
+episode  386 score -11.89 trailing 20 games avg 226.200
+episode  387 score 20.61 trailing 20 games avg 213.133
+episode  388 score 256.13 trailing 20 games avg 232.894
+episode  389 score 18.12 trailing 20 games avg 221.591
+episode  390 score -21.72 trailing 20 games avg 206.777
+episode  391 score -22.93 trailing 20 games avg 192.021
+episode  392 score 141.83 trailing 20 games avg 185.630
+episode  393 score 225.47 trailing 20 games avg 183.423
+episode  394 score 267.68 trailing 20 games avg 183.032
+episode  395 score 247.42 trailing 20 games avg 181.959
+episode  396 score -18.48 trailing 20 games avg 170.637
+episode  397 score 251.52 trailing 20 games avg 170.165
+episode  398 score 140.35 trailing 20 games avg 164.794
+episode  399 score 227.13 trailing 20 games avg 162.533
+episode  400 score 275.04 trailing 20 games avg 162.756
+episode  401 score 249.91 trailing 20 games avg 161.328
+episode  402 score 274.08 trailing 20 games avg 161.293
+episode  403 score 249.38 trailing 20 games avg 161.416
+episode  404 score 289.29 trailing 20 games avg 162.887
+episode  405 score 189.08 trailing 20 games avg 162.401
+episode  406 score 240.93 trailing 20 games avg 175.041
+episode  407 score 264.94 trailing 20 games avg 187.258
+episode  408 score 192.76 trailing 20 games avg 184.089
+episode  409 score 249.97 trailing 20 games avg 195.682
+episode  410 score 275.94 trailing 20 games avg 210.565
+episode  411 score 237.68 trailing 20 games avg 223.595
+episode  412 score 229.47 trailing 20 games avg 227.978
+episode  413 score 282.34 trailing 20 games avg 230.821
+episode  414 score 260.57 trailing 20 games avg 230.466
+episode  415 score 281.13 trailing 20 games avg 232.151
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  416 score 252.48 trailing 20 games avg 245.699
+episode  417 score 241.10 trailing 20 games avg 245.179
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  418 score 242.09 trailing 20 games avg 250.265
+episode  419 score 201.96 trailing 20 games avg 249.007
+episode  420 score 258.72 trailing 20 games avg 248.191
+episode  421 score 238.82 trailing 20 games avg 247.636
+episode  422 score 267.07 trailing 20 games avg 247.286
+episode  423 score 283.56 trailing 20 games avg 248.995
+episode  424 score 223.98 trailing 20 games avg 245.730
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  425 score 279.84 trailing 20 games avg 250.268
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  426 score 279.04 trailing 20 games avg 252.174
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  427 score 273.28 trailing 20 games avg 252.591
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  428 score 213.69 trailing 20 games avg 253.637
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  429 score 273.81 trailing 20 games avg 254.829
+episode  430 score 217.88 trailing 20 games avg 251.926
+episode  431 score 274.63 trailing 20 games avg 253.773
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  432 score 251.98 trailing 20 games avg 254.899
+episode  433 score 267.59 trailing 20 games avg 254.161
+episode  434 score 220.66 trailing 20 games avg 252.165
+episode  435 score 231.92 trailing 20 games avg 249.705
+episode  436 score 263.08 trailing 20 games avg 250.235
+episode  437 score -20.26 trailing 20 games avg 237.167
+episode  438 score 270.74 trailing 20 games avg 238.600
+episode  439 score 242.05 trailing 20 games avg 240.604
+episode  440 score 233.83 trailing 20 games avg 239.360
+episode  441 score 148.24 trailing 20 games avg 234.831
+episode  442 score 214.03 trailing 20 games avg 232.179
+episode  443 score 206.40 trailing 20 games avg 228.321
+episode  444 score 244.10 trailing 20 games avg 229.326
+episode  445 score 250.73 trailing 20 games avg 227.871
+episode  446 score 270.12 trailing 20 games avg 227.425
+episode  447 score -104.03 trailing 20 games avg 208.559
+episode  448 score 41.04 trailing 20 games avg 199.927
+episode  449 score 246.14 trailing 20 games avg 198.543
+episode  450 score 222.04 trailing 20 games avg 198.751
+episode  451 score 254.32 trailing 20 games avg 197.736
+episode  452 score -49.90 trailing 20 games avg 182.642
+episode  453 score 206.05 trailing 20 games avg 179.565
+episode  454 score 238.75 trailing 20 games avg 180.470
+episode  455 score 213.16 trailing 20 games avg 179.532
+episode  456 score 274.59 trailing 20 games avg 180.107
+episode  457 score 266.92 trailing 20 games avg 194.466
+episode  458 score 155.96 trailing 20 games avg 188.727
+episode  459 score 249.29 trailing 20 games avg 189.089
+episode  460 score 221.45 trailing 20 games avg 188.470
+episode  461 score 231.87 trailing 20 games avg 192.652
+episode  462 score 247.38 trailing 20 games avg 194.320
+episode  463 score 225.43 trailing 20 games avg 195.271
+episode  464 score 281.34 trailing 20 games avg 197.134
+episode  465 score 264.91 trailing 20 games avg 197.843
+episode  466 score 187.26 trailing 20 games avg 193.700
+episode  467 score 243.05 trailing 20 games avg 211.054
+episode  468 score 220.64 trailing 20 games avg 220.033
+episode  469 score 239.40 trailing 20 games avg 219.696
+episode  470 score 197.12 trailing 20 games avg 218.450
+episode  471 score 276.54 trailing 20 games avg 219.561
+episode  472 score 197.61 trailing 20 games avg 231.936
+episode  473 score 232.52 trailing 20 games avg 233.260
+episode  474 score 260.03 trailing 20 games avg 234.324
+episode  475 score 254.34 trailing 20 games avg 236.383
+episode  476 score 222.54 trailing 20 games avg 233.780
+episode  477 score 269.54 trailing 20 games avg 233.911
+episode  478 score 277.41 trailing 20 games avg 239.983
+episode  479 score 297.38 trailing 20 games avg 242.388
+episode  480 score 273.21 trailing 20 games avg 244.976
+episode  481 score 51.76 trailing 20 games avg 235.970
+episode  482 score 56.45 trailing 20 games avg 226.424
+episode  483 score 297.06 trailing 20 games avg 230.005
+episode  484 score 302.01 trailing 20 games avg 231.038
+episode  485 score 234.14 trailing 20 games avg 229.500
+episode  486 score 19.36 trailing 20 games avg 221.105
+episode  487 score 33.37 trailing 20 games avg 210.621
+episode  488 score 207.61 trailing 20 games avg 209.970
+episode  489 score 233.06 trailing 20 games avg 209.652
+episode  490 score 47.13 trailing 20 games avg 202.153
+episode  491 score 16.02 trailing 20 games avg 189.127
+episode  492 score 74.85 trailing 20 games avg 182.990
+episode  493 score -31.23 trailing 20 games avg 169.802
+episode  494 score 278.03 trailing 20 games avg 170.703
+episode  495 score 10.85 trailing 20 games avg 158.528
+episode  496 score 236.96 trailing 20 games avg 159.249
+episode  497 score 26.28 trailing 20 games avg 147.086
+episode  498 score 45.77 trailing 20 games avg 135.504
+episode  499 score 244.52 trailing 20 games avg 132.861
+episode  500 score 246.25 trailing 20 games avg 131.513
+episode  501 score -25.22 trailing 20 games avg 127.664
+episode  502 score 282.22 trailing 20 games avg 138.952
+episode  503 score -33.48 trailing 20 games avg 122.425
+episode  504 score -14.57 trailing 20 games avg 106.596
+episode  505 score 265.66 trailing 20 games avg 108.172
+episode  506 score 35.12 trailing 20 games avg 108.960
+episode  507 score 277.63 trailing 20 games avg 121.173
+episode  508 score 287.80 trailing 20 games avg 125.183
+episode  509 score -13.52 trailing 20 games avg 112.854
+episode  510 score 38.04 trailing 20 games avg 112.399
+episode  511 score -3.53 trailing 20 games avg 111.421
+episode  512 score 21.18 trailing 20 games avg 108.737
+episode  513 score 241.02 trailing 20 games avg 122.350
+episode  514 score 27.29 trailing 20 games avg 109.812
+episode  515 score 52.58 trailing 20 games avg 111.899
+episode  516 score 51.41 trailing 20 games avg 102.622
+episode  517 score 297.49 trailing 20 games avg 116.182
+episode  518 score -16.25 trailing 20 games avg 113.081
+episode  519 score 259.87 trailing 20 games avg 113.848
+episode  520 score 299.02 trailing 20 games avg 116.487
+episode  521 score 27.06 trailing 20 games avg 119.100
+episode  522 score -17.82 trailing 20 games avg 104.098
+episode  523 score 296.56 trailing 20 games avg 120.600
+episode  524 score -55.92 trailing 20 games avg 118.533
+episode  525 score 264.02 trailing 20 games avg 118.451
+episode  526 score 283.68 trailing 20 games avg 130.879
+episode  527 score -34.90 trailing 20 games avg 115.252
+episode  528 score 9.20 trailing 20 games avg 101.322
+episode  529 score 261.21 trailing 20 games avg 115.059
+episode  530 score -36.64 trailing 20 games avg 111.325
+episode  531 score -35.43 trailing 20 games avg 109.730
+episode  532 score 274.28 trailing 20 games avg 122.385
+episode  533 score 275.60 trailing 20 games avg 124.114
+episode  534 score 249.40 trailing 20 games avg 135.220
+episode  535 score -38.47 trailing 20 games avg 130.668
+episode  536 score 71.84 trailing 20 games avg 131.689
+episode  537 score 270.40 trailing 20 games avg 130.335
+episode  538 score 264.70 trailing 20 games avg 144.382
+episode  539 score 294.50 trailing 20 games avg 146.114
+episode  540 score 272.81 trailing 20 games avg 144.803
+episode  541 score 259.60 trailing 20 games avg 156.431
+episode  542 score 267.70 trailing 20 games avg 170.707
+episode  543 score 277.09 trailing 20 games avg 169.733
+episode  544 score 238.70 trailing 20 games avg 184.464
+episode  545 score 246.57 trailing 20 games avg 183.592
+episode  546 score 285.92 trailing 20 games avg 183.704
+episode  547 score 283.83 trailing 20 games avg 199.641
+episode  548 score 238.06 trailing 20 games avg 211.084
+episode  549 score 291.19 trailing 20 games avg 212.582
+episode  550 score 319.84 trailing 20 games avg 230.407
+episode  551 score 250.63 trailing 20 games avg 244.709
+episode  552 score -2.79 trailing 20 games avg 230.856
+episode  553 score 259.85 trailing 20 games avg 230.068
+episode  554 score 310.55 trailing 20 games avg 233.126
+episode  555 score 241.98 trailing 20 games avg 247.148
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  556 score 263.64 trailing 20 games avg 256.738
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  557 score 276.60 trailing 20 games avg 257.048
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  558 score 268.62 trailing 20 games avg 257.244
+episode  559 score 273.89 trailing 20 games avg 256.213
+episode  560 score 227.73 trailing 20 games avg 253.959
+episode  561 score 281.36 trailing 20 games avg 255.047
+episode  562 score 308.28 trailing 20 games avg 257.076
+episode  563 score 275.94 trailing 20 games avg 257.018
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  564 score 303.26 trailing 20 games avg 260.246
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  565 score 276.40 trailing 20 games avg 261.738
+episode  566 score 257.58 trailing 20 games avg 260.321
+episode  567 score 219.54 trailing 20 games avg 257.106
+episode  568 score 256.89 trailing 20 games avg 258.048
+episode  569 score -33.14 trailing 20 games avg 241.831
+episode  570 score 162.98 trailing 20 games avg 233.989
+episode  571 score 253.54 trailing 20 games avg 234.134
+episode  572 score 253.40 trailing 20 games avg 246.944
+episode  573 score 269.89 trailing 20 games avg 247.446
+episode  574 score 271.27 trailing 20 games avg 245.482
+episode  575 score 267.94 trailing 20 games avg 246.780
+episode  576 score 281.36 trailing 20 games avg 247.665
+episode  577 score 247.57 trailing 20 games avg 246.214
+episode  578 score 286.11 trailing 20 games avg 247.089
+episode  579 score 264.00 trailing 20 games avg 246.594
+episode  580 score -3.89 trailing 20 games avg 235.013
+episode  581 score -55.22 trailing 20 games avg 218.184
+episode  582 score -9.45 trailing 20 games avg 202.298
+episode  583 score 274.75 trailing 20 games avg 202.239
+episode  584 score 245.08 trailing 20 games avg 199.330
+episode  585 score 286.85 trailing 20 games avg 199.852
+episode  586 score 278.01 trailing 20 games avg 200.873
+episode  587 score 272.36 trailing 20 games avg 203.514
+episode  588 score 251.60 trailing 20 games avg 203.250
+episode  589 score 218.14 trailing 20 games avg 215.814
+episode  590 score -5.97 trailing 20 games avg 207.366
+episode  591 score -51.71 trailing 20 games avg 192.103
+episode  592 score 270.23 trailing 20 games avg 192.945
+episode  593 score 233.65 trailing 20 games avg 191.133
+episode  594 score -51.00 trailing 20 games avg 175.020
+episode  595 score 250.76 trailing 20 games avg 174.161
+episode  596 score 273.60 trailing 20 games avg 173.773
+episode  597 score 208.98 trailing 20 games avg 171.843
+episode  598 score 266.03 trailing 20 games avg 170.840
+episode  599 score 259.69 trailing 20 games avg 170.624
+episode  600 score 254.92 trailing 20 games avg 183.565
+episode  601 score 277.82 trailing 20 games avg 200.217
+episode  602 score 209.27 trailing 20 games avg 211.153
+episode  603 score 235.50 trailing 20 games avg 209.190
+episode  604 score 320.57 trailing 20 games avg 212.965
+episode  605 score 270.23 trailing 20 games avg 212.134
+episode  606 score 194.59 trailing 20 games avg 207.963
+episode  607 score 322.44 trailing 20 games avg 210.466
+episode  608 score 255.52 trailing 20 games avg 210.662
+episode  609 score -9.69 trailing 20 games avg 199.271
+episode  610 score 278.03 trailing 20 games avg 213.471
+episode  611 score 275.73 trailing 20 games avg 229.844
+episode  612 score -48.81 trailing 20 games avg 213.892
+episode  613 score 246.93 trailing 20 games avg 214.556
+episode  614 score 193.04 trailing 20 games avg 226.758
+episode  615 score 274.42 trailing 20 games avg 227.941
+episode  616 score 250.02 trailing 20 games avg 226.762
+episode  617 score -262.07 trailing 20 games avg 203.209
+episode  618 score 231.34 trailing 20 games avg 201.475
+episode  619 score 266.28 trailing 20 games avg 201.805
+episode  620 score 225.53 trailing 20 games avg 200.335
+episode  621 score 264.78 trailing 20 games avg 199.683
+episode  622 score 261.03 trailing 20 games avg 202.271
+episode  623 score 271.85 trailing 20 games avg 204.089
+episode  624 score 227.11 trailing 20 games avg 199.416
+episode  625 score 276.71 trailing 20 games avg 199.740
+episode  626 score 256.46 trailing 20 games avg 202.833
+episode  627 score 242.54 trailing 20 games avg 198.839
+episode  628 score 207.73 trailing 20 games avg 196.449
+episode  629 score 284.12 trailing 20 games avg 211.140
+episode  630 score 267.77 trailing 20 games avg 210.627
+episode  631 score 241.03 trailing 20 games avg 208.892
+episode  632 score 275.06 trailing 20 games avg 225.085
+episode  633 score 12.81 trailing 20 games avg 213.379
+episode  634 score -2.74 trailing 20 games avg 203.590
+episode  635 score 231.49 trailing 20 games avg 201.444
+episode  636 score 273.27 trailing 20 games avg 202.606
+episode  637 score 290.47 trailing 20 games avg 230.233
+episode  638 score 267.57 trailing 20 games avg 232.045
+episode  639 score 267.87 trailing 20 games avg 232.124
+episode  640 score 234.98 trailing 20 games avg 232.596
+episode  641 score 295.58 trailing 20 games avg 234.137
+episode  642 score 283.45 trailing 20 games avg 235.258
+episode  643 score 287.34 trailing 20 games avg 236.032
+episode  644 score 282.45 trailing 20 games avg 238.799
+episode  645 score 293.05 trailing 20 games avg 239.616
+episode  646 score 299.48 trailing 20 games avg 241.767
+episode  647 score -127.17 trailing 20 games avg 223.282
+episode  648 score 272.34 trailing 20 games avg 226.512
+episode  649 score 246.05 trailing 20 games avg 224.609
+episode  650 score 270.58 trailing 20 games avg 224.749
+episode  651 score 277.51 trailing 20 games avg 226.573
+episode  652 score 283.46 trailing 20 games avg 226.994
+episode  653 score 273.20 trailing 20 games avg 240.013
+episode  654 score 260.62 trailing 20 games avg 253.181
+episode  655 score 288.63 trailing 20 games avg 256.038
+episode  656 score 267.48 trailing 20 games avg 255.748
+episode  657 score 269.81 trailing 20 games avg 254.715
+episode  658 score 256.17 trailing 20 games avg 254.145
+episode  659 score 259.67 trailing 20 games avg 253.735
+episode  660 score 300.53 trailing 20 games avg 257.013
+episode  661 score 269.98 trailing 20 games avg 255.732
+episode  662 score 268.94 trailing 20 games avg 255.007
+episode  663 score 288.86 trailing 20 games avg 255.083
+episode  664 score 305.49 trailing 20 games avg 256.235
+episode  665 score 285.23 trailing 20 games avg 255.844
+episode  666 score 274.87 trailing 20 games avg 254.614
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  667 score 235.65 trailing 20 games avg 272.755
+episode  668 score 262.19 trailing 20 games avg 272.247
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  669 score 320.76 trailing 20 games avg 275.983
+episode  670 score 234.29 trailing 20 games avg 274.168
+episode  671 score 313.66 trailing 20 games avg 275.976
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  672 score 299.50 trailing 20 games avg 276.778
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  673 score 296.72 trailing 20 games avg 277.954
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  674 score 298.32 trailing 20 games avg 279.839
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  675 score 290.24 trailing 20 games avg 279.919
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  676 score 284.42 trailing 20 games avg 280.767
+episode  677 score 265.30 trailing 20 games avg 280.541
+episode  678 score 256.64 trailing 20 games avg 280.564
+episode  679 score 241.03 trailing 20 games avg 279.632
+episode  680 score 250.80 trailing 20 games avg 277.146
+episode  681 score 258.31 trailing 20 games avg 276.563
+episode  682 score 209.61 trailing 20 games avg 273.596
+episode  683 score 214.27 trailing 20 games avg 269.866
+episode  684 score 258.36 trailing 20 games avg 267.509
+episode  685 score 270.25 trailing 20 games avg 266.760
+episode  686 score 250.27 trailing 20 games avg 265.530
+episode  687 score 267.12 trailing 20 games avg 267.104
+episode  688 score 263.07 trailing 20 games avg 267.147
+episode  689 score 293.88 trailing 20 games avg 265.804
+episode  690 score 278.12 trailing 20 games avg 267.995
+episode  691 score 253.45 trailing 20 games avg 264.984
+episode  692 score 273.34 trailing 20 games avg 263.676
+episode  693 score 263.20 trailing 20 games avg 262.000
+episode  694 score 246.25 trailing 20 games avg 259.396
+episode  695 score 266.17 trailing 20 games avg 258.192
+episode  696 score 253.82 trailing 20 games avg 256.662
+episode  697 score 253.18 trailing 20 games avg 256.056
+episode  698 score 247.05 trailing 20 games avg 255.576
+episode  699 score 306.19 trailing 20 games avg 258.835
+episode  700 score 252.47 trailing 20 games avg 258.918
+episode  701 score 270.38 trailing 20 games avg 259.521
+episode  702 score -52.39 trailing 20 games avg 246.422
+episode  703 score 279.43 trailing 20 games avg 249.680
+episode  704 score 289.50 trailing 20 games avg 251.237
+episode  705 score 275.31 trailing 20 games avg 251.490
+episode  706 score 278.22 trailing 20 games avg 252.887
+episode  707 score 280.44 trailing 20 games avg 253.553
+episode  708 score 296.07 trailing 20 games avg 255.203
+episode  709 score 240.46 trailing 20 games avg 252.532
+episode  710 score 308.63 trailing 20 games avg 254.058
+episode  711 score 294.05 trailing 20 games avg 256.088
+episode  712 score 277.17 trailing 20 games avg 256.280
+episode  713 score 272.75 trailing 20 games avg 256.757
+episode  714 score 275.58 trailing 20 games avg 258.224
+episode  715 score 264.45 trailing 20 games avg 258.138
+episode  716 score 272.32 trailing 20 games avg 259.063
+episode  717 score 212.47 trailing 20 games avg 257.027
+episode  718 score 268.82 trailing 20 games avg 258.116
+episode  719 score 268.45 trailing 20 games avg 256.228
+episode  720 score 268.32 trailing 20 games avg 257.021
+episode  721 score 225.95 trailing 20 games avg 254.800
+episode  722 score 267.18 trailing 20 games avg 270.778
+episode  723 score 258.41 trailing 20 games avg 269.727
+episode  724 score 283.50 trailing 20 games avg 269.427
+episode  725 score 281.50 trailing 20 games avg 269.737
+episode  726 score 281.54 trailing 20 games avg 269.903
+episode  727 score 248.42 trailing 20 games avg 268.302
+episode  728 score 271.37 trailing 20 games avg 267.067
+episode  729 score 250.55 trailing 20 games avg 267.571
+episode  730 score 278.63 trailing 20 games avg 266.071
+episode  731 score 290.05 trailing 20 games avg 265.871
+episode  732 score 261.78 trailing 20 games avg 265.102
+episode  733 score 298.14 trailing 20 games avg 266.371
+episode  734 score 244.68 trailing 20 games avg 264.826
+episode  735 score 267.61 trailing 20 games avg 264.984
+episode  736 score 248.38 trailing 20 games avg 263.788
+episode  737 score 230.71 trailing 20 games avg 264.700
+episode  738 score 265.55 trailing 20 games avg 264.537
+episode  739 score 266.08 trailing 20 games avg 264.418
+episode  740 score 292.33 trailing 20 games avg 265.619
+episode  741 score 263.08 trailing 20 games avg 267.476
+episode  742 score 296.46 trailing 20 games avg 268.940
+episode  743 score 258.88 trailing 20 games avg 268.963
+episode  744 score 266.89 trailing 20 games avg 268.133
+episode  745 score 274.14 trailing 20 games avg 267.765
+episode  746 score 302.36 trailing 20 games avg 268.806
+episode  747 score 286.07 trailing 20 games avg 270.688
+episode  748 score 272.94 trailing 20 games avg 270.767
+episode  749 score 273.04 trailing 20 games avg 271.891
+episode  750 score 246.39 trailing 20 games avg 270.279
+episode  751 score 275.37 trailing 20 games avg 269.545
+episode  752 score 290.65 trailing 20 games avg 270.989
+episode  753 score 254.02 trailing 20 games avg 268.783
+episode  754 score 231.30 trailing 20 games avg 268.114
+episode  755 score 290.32 trailing 20 games avg 269.249
+episode  756 score 285.70 trailing 20 games avg 271.115
+episode  757 score 304.37 trailing 20 games avg 274.797
+episode  758 score 251.19 trailing 20 games avg 274.079
+episode  759 score 241.39 trailing 20 games avg 272.844
+episode  760 score 267.52 trailing 20 games avg 271.603
+episode  761 score 268.17 trailing 20 games avg 271.858
+episode  762 score 287.38 trailing 20 games avg 271.404
+episode  763 score 264.10 trailing 20 games avg 271.665
+episode  764 score 266.35 trailing 20 games avg 271.638
+episode  765 score 238.27 trailing 20 games avg 269.845
+episode  766 score 236.71 trailing 20 games avg 266.562
+episode  767 score 257.92 trailing 20 games avg 265.154
+episode  768 score 272.37 trailing 20 games avg 265.126
+episode  769 score 235.88 trailing 20 games avg 263.268
+episode  770 score 254.34 trailing 20 games avg 263.666
+episode  771 score 265.67 trailing 20 games avg 263.181
+episode  772 score 298.14 trailing 20 games avg 263.555
+episode  773 score 255.82 trailing 20 games avg 263.645
+episode  774 score 246.95 trailing 20 games avg 264.427
+episode  775 score 266.60 trailing 20 games avg 263.241
+episode  776 score 273.93 trailing 20 games avg 262.652
+episode  777 score 273.34 trailing 20 games avg 261.101
+episode  778 score 293.93 trailing 20 games avg 263.238
+episode  779 score 274.03 trailing 20 games avg 264.870
+episode  780 score 266.70 trailing 20 games avg 264.830
+episode  781 score 279.03 trailing 20 games avg 265.373
+episode  782 score 269.04 trailing 20 games avg 264.456
+episode  783 score 265.22 trailing 20 games avg 264.512
+episode  784 score 279.31 trailing 20 games avg 265.160
+episode  785 score 230.22 trailing 20 games avg 264.757
+episode  786 score 292.00 trailing 20 games avg 267.522
+episode  787 score -69.00 trailing 20 games avg 251.175
+episode  788 score 300.07 trailing 20 games avg 252.560
+episode  789 score 239.69 trailing 20 games avg 252.751
+episode  790 score 271.28 trailing 20 games avg 253.598
+episode  791 score 203.43 trailing 20 games avg 250.486
+episode  792 score 279.49 trailing 20 games avg 249.553
+episode  793 score 248.84 trailing 20 games avg 249.204
+episode  794 score 225.48 trailing 20 games avg 248.131
+episode  795 score 268.35 trailing 20 games avg 248.219
+episode  796 score 314.47 trailing 20 games avg 250.246
+episode  797 score 251.78 trailing 20 games avg 249.168
+episode  798 score 245.51 trailing 20 games avg 246.747
+episode  799 score 259.58 trailing 20 games avg 246.025
+episode  800 score 230.83 trailing 20 games avg 244.231
+episode  801 score 263.64 trailing 20 games avg 243.461
+episode  802 score 255.86 trailing 20 games avg 242.802
+episode  803 score 257.43 trailing 20 games avg 242.413
+episode  804 score 284.65 trailing 20 games avg 242.680
+episode  805 score 237.98 trailing 20 games avg 243.068
+episode  806 score 299.68 trailing 20 games avg 243.452
+episode  807 score 314.05 trailing 20 games avg 262.604
+episode  808 score 248.97 trailing 20 games avg 260.049
+episode  809 score 222.17 trailing 20 games avg 259.173
+episode  810 score 225.41 trailing 20 games avg 256.880
+episode  811 score 268.72 trailing 20 games avg 260.145
+episode  812 score 265.65 trailing 20 games avg 259.453
+episode  813 score -412.49 trailing 20 games avg 226.387
+episode  814 score 255.00 trailing 20 games avg 227.862
+episode  815 score 241.48 trailing 20 games avg 226.519
+episode  816 score 274.06 trailing 20 games avg 224.499
+episode  817 score -239.88 trailing 20 games avg 199.916
+episode  818 score 287.48 trailing 20 games avg 202.014
+episode  819 score 253.95 trailing 20 games avg 201.733
+episode  820 score 272.42 trailing 20 games avg 203.813
+episode  821 score 215.76 trailing 20 games avg 201.418
+episode  822 score 249.05 trailing 20 games avg 201.078
+episode  823 score 292.96 trailing 20 games avg 202.855
+episode  824 score 272.83 trailing 20 games avg 202.264
+episode  825 score 287.43 trailing 20 games avg 204.736
+episode  826 score 266.20 trailing 20 games avg 203.062
+episode  827 score 262.32 trailing 20 games avg 200.476
+episode  828 score 274.42 trailing 20 games avg 201.748
+episode  829 score 255.80 trailing 20 games avg 203.430
+episode  830 score 301.32 trailing 20 games avg 207.225
+episode  831 score 291.92 trailing 20 games avg 208.385
+episode  832 score 286.72 trailing 20 games avg 209.439
+episode  833 score 294.59 trailing 20 games avg 244.792
+episode  834 score 257.93 trailing 20 games avg 244.939
+episode  835 score 296.40 trailing 20 games avg 247.685
+episode  836 score 228.08 trailing 20 games avg 245.386
+episode  837 score 226.29 trailing 20 games avg 268.694
+episode  838 score 265.55 trailing 20 games avg 267.597
+episode  839 score 257.64 trailing 20 games avg 267.782
+episode  840 score 275.46 trailing 20 games avg 267.934
+episode  841 score 295.31 trailing 20 games avg 271.911
+episode  842 score 264.78 trailing 20 games avg 272.698
+episode  843 score 297.61 trailing 20 games avg 272.930
+episode  844 score 253.54 trailing 20 games avg 271.965
+episode  845 score 252.26 trailing 20 games avg 270.207
+episode  846 score 303.49 trailing 20 games avg 272.071
+episode  847 score 256.79 trailing 20 games avg 271.795
+episode  848 score 246.07 trailing 20 games avg 270.377
+episode  849 score 295.79 trailing 20 games avg 272.377
+episode  850 score 301.60 trailing 20 games avg 272.391
+episode  851 score 235.00 trailing 20 games avg 269.545
+episode  852 score 282.15 trailing 20 games avg 269.316
+episode  853 score 272.24 trailing 20 games avg 268.198
+episode  854 score 286.45 trailing 20 games avg 269.625
+episode  855 score 268.97 trailing 20 games avg 268.253
+episode  856 score 1.63 trailing 20 games avg 256.930
+episode  857 score 281.75 trailing 20 games avg 259.703
+episode  858 score 290.14 trailing 20 games avg 260.933
+episode  859 score 297.39 trailing 20 games avg 262.920
+episode  860 score 253.64 trailing 20 games avg 261.829
+episode  861 score 277.54 trailing 20 games avg 260.940
+episode  862 score 273.86 trailing 20 games avg 261.395
+episode  863 score 281.30 trailing 20 games avg 260.579
+episode  864 score 272.39 trailing 20 games avg 261.521
+episode  865 score 262.42 trailing 20 games avg 262.030
+episode  866 score 269.94 trailing 20 games avg 260.352
+episode  867 score 297.03 trailing 20 games avg 262.364
+episode  868 score 243.38 trailing 20 games avg 262.230
+episode  869 score 306.46 trailing 20 games avg 262.763
+episode  870 score 251.29 trailing 20 games avg 260.247
+episode  871 score 264.20 trailing 20 games avg 261.707
+episode  872 score 303.89 trailing 20 games avg 262.794
+episode  873 score 254.32 trailing 20 games avg 261.899
+episode  874 score 286.30 trailing 20 games avg 261.891
+episode  875 score 291.07 trailing 20 games avg 262.996
+episode  876 score 289.02 trailing 20 games avg 277.366
+episode  877 score 83.93 trailing 20 games avg 267.475
+episode  878 score 283.16 trailing 20 games avg 267.126
+episode  879 score 299.58 trailing 20 games avg 267.235
+episode  880 score 311.94 trailing 20 games avg 270.151
+episode  881 score 284.56 trailing 20 games avg 270.502
+episode  882 score 268.68 trailing 20 games avg 270.243
+episode  883 score 293.78 trailing 20 games avg 270.867
+episode  884 score 283.47 trailing 20 games avg 271.421
+episode  885 score 282.61 trailing 20 games avg 272.431
+episode  886 score 296.10 trailing 20 games avg 273.739
+episode  887 score 264.42 trailing 20 games avg 272.108
+episode  888 score 273.15 trailing 20 games avg 273.597
+episode  889 score 296.14 trailing 20 games avg 273.081
+episode  890 score 287.94 trailing 20 games avg 274.913
+episode  891 score 233.82 trailing 20 games avg 273.394
+episode  892 score 272.67 trailing 20 games avg 271.834
+episode  893 score 308.29 trailing 20 games avg 274.532
+episode  894 score 271.39 trailing 20 games avg 273.787
+episode  895 score 273.59 trailing 20 games avg 272.913
+episode  896 score 277.89 trailing 20 games avg 272.356
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  897 score 279.75 trailing 20 games avg 282.147
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  898 score 287.28 trailing 20 games avg 282.353
+episode  899 score 298.93 trailing 20 games avg 282.320
+episode  900 score 293.54 trailing 20 games avg 281.400
+episode  901 score 267.13 trailing 20 games avg 280.529
+episode  902 score 249.82 trailing 20 games avg 279.585
+episode  903 score 256.18 trailing 20 games avg 277.706
+episode  904 score 291.95 trailing 20 games avg 278.130
+episode  905 score 286.33 trailing 20 games avg 278.316
+episode  906 score 270.13 trailing 20 games avg 277.017
+episode  907 score 285.39 trailing 20 games avg 278.066
+episode  908 score 260.10 trailing 20 games avg 277.413
+episode  909 score 264.02 trailing 20 games avg 275.807
+episode  910 score 292.52 trailing 20 games avg 276.036
+episode  911 score 302.58 trailing 20 games avg 279.475
+episode  912 score 280.32 trailing 20 games avg 279.857
+episode  913 score 274.32 trailing 20 games avg 278.158
+episode  914 score 255.47 trailing 20 games avg 277.362
+episode  915 score 259.78 trailing 20 games avg 276.672
+episode  916 score 302.44 trailing 20 games avg 277.899
+episode  917 score 261.79 trailing 20 games avg 277.001
+episode  918 score 291.35 trailing 20 games avg 277.205
+episode  919 score 271.69 trailing 20 games avg 275.843
+episode  920 score 301.14 trailing 20 games avg 276.223
+episode  921 score 269.79 trailing 20 games avg 276.356
+episode  922 score 277.47 trailing 20 games avg 277.739
+episode  923 score 298.70 trailing 20 games avg 279.865
+episode  924 score 260.56 trailing 20 games avg 278.295
+episode  925 score 289.77 trailing 20 games avg 278.466
+episode  926 score 250.15 trailing 20 games avg 277.467
+episode  927 score 285.16 trailing 20 games avg 277.455
+episode  928 score 259.51 trailing 20 games avg 277.426
+episode  929 score 289.16 trailing 20 games avg 278.683
+episode  930 score 260.59 trailing 20 games avg 277.086
+episode  931 score 295.76 trailing 20 games avg 276.745
+episode  932 score 270.90 trailing 20 games avg 276.274
+episode  933 score 313.45 trailing 20 games avg 278.231
+episode  934 score 291.87 trailing 20 games avg 280.050
+episode  935 score 265.44 trailing 20 games avg 280.333
+episode  936 score 269.02 trailing 20 games avg 278.662
+episode  937 score 292.29 trailing 20 games avg 280.187
+episode  938 score 284.76 trailing 20 games avg 279.858
+episode  939 score 270.17 trailing 20 games avg 279.782
+episode  940 score 279.54 trailing 20 games avg 278.702
+episode  941 score 286.98 trailing 20 games avg 279.561
+episode  942 score 273.61 trailing 20 games avg 279.368
+episode  943 score 266.68 trailing 20 games avg 277.767
+episode  944 score 281.44 trailing 20 games avg 278.811
+episode  945 score 285.25 trailing 20 games avg 278.586
+episode  946 score 291.53 trailing 20 games avg 280.655
+episode  947 score 292.50 trailing 20 games avg 281.022
+episode  948 score 285.85 trailing 20 games avg 282.340
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  949 score 300.63 trailing 20 games avg 282.913
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  950 score 269.02 trailing 20 games avg 283.334
+episode  951 score 283.87 trailing 20 games avg 282.740
+episode  952 score 271.73 trailing 20 games avg 282.781
+episode  953 score 281.83 trailing 20 games avg 281.200
+episode  954 score 288.16 trailing 20 games avg 281.015
+episode  955 score 292.15 trailing 20 games avg 282.351
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  956 score 298.20 trailing 20 games avg 283.810
+episode  957 score 252.13 trailing 20 games avg 281.802
+episode  958 score 282.39 trailing 20 games avg 281.683
+episode  959 score 265.86 trailing 20 games avg 281.468
+episode  960 score 230.25 trailing 20 games avg 279.003
+episode  961 score 270.36 trailing 20 games avg 278.173
+episode  962 score 260.92 trailing 20 games avg 277.538
+episode  963 score 288.65 trailing 20 games avg 278.637
+episode  964 score 288.72 trailing 20 games avg 279.002
+episode  965 score 277.79 trailing 20 games avg 278.628
+episode  966 score 244.90 trailing 20 games avg 276.297
+episode  967 score 275.88 trailing 20 games avg 275.466
+episode  968 score 265.84 trailing 20 games avg 274.465
+episode  969 score 296.21 trailing 20 games avg 274.244
+episode  970 score 304.71 trailing 20 games avg 276.029
+episode  971 score 288.03 trailing 20 games avg 276.236
+episode  972 score 310.44 trailing 20 games avg 278.172
+episode  973 score 263.26 trailing 20 games avg 277.243
+episode  974 score 279.70 trailing 20 games avg 276.820
+episode  975 score 275.72 trailing 20 games avg 275.998
+episode  976 score 297.44 trailing 20 games avg 275.960
+episode  977 score 281.73 trailing 20 games avg 277.440
+episode  978 score 275.19 trailing 20 games avg 277.080
+episode  979 score 219.64 trailing 20 games avg 274.769
+episode  980 score 287.02 trailing 20 games avg 277.608
+episode  981 score 273.55 trailing 20 games avg 277.767
+episode  982 score 285.01 trailing 20 games avg 278.972
+episode  983 score 284.13 trailing 20 games avg 278.745
+episode  984 score 44.31 trailing 20 games avg 266.525
+episode  985 score 287.88 trailing 20 games avg 267.029
+episode  986 score 274.31 trailing 20 games avg 268.500
+episode  987 score 295.29 trailing 20 games avg 269.471
+episode  988 score 249.71 trailing 20 games avg 268.664
+episode  989 score 292.42 trailing 20 games avg 268.475
+episode  990 score 286.23 trailing 20 games avg 267.550
+episode  991 score 283.02 trailing 20 games avg 267.300
+episode  992 score 275.81 trailing 20 games avg 265.569
+episode  993 score 309.00 trailing 20 games avg 267.856
+episode  994 score 290.39 trailing 20 games avg 268.390
+episode  995 score 287.59 trailing 20 games avg 268.984
+episode  996 score 270.72 trailing 20 games avg 267.648
+episode  997 score 280.14 trailing 20 games avg 267.568
+episode  998 score 287.10 trailing 20 games avg 268.164
+episode  999 score 277.82 trailing 20 games avg 271.073
+episode  1000 score 269.37 trailing 20 games avg 270.190
+episode  1001 score 268.50 trailing 20 games avg 269.938
+episode  1002 score 268.21 trailing 20 games avg 269.098
+episode  1003 score 267.80 trailing 20 games avg 268.281
+episode  1004 score 290.94 trailing 20 games avg 280.612
+episode  1005 score 271.81 trailing 20 games avg 279.809
+episode  1006 score 287.55 trailing 20 games avg 280.470
+episode  1007 score 296.75 trailing 20 games avg 280.543
+episode  1008 score 272.08 trailing 20 games avg 281.662
+episode  1009 score 248.31 trailing 20 games avg 279.457
+episode  1010 score 261.19 trailing 20 games avg 278.205
+episode  1011 score 263.66 trailing 20 games avg 277.237
+episode  1012 score 275.22 trailing 20 games avg 277.207
+episode  1013 score 280.52 trailing 20 games avg 275.783
+episode  1014 score 260.54 trailing 20 games avg 274.291
+episode  1015 score 262.10 trailing 20 games avg 273.016
+episode  1016 score 311.84 trailing 20 games avg 275.072
+episode  1017 score 281.97 trailing 20 games avg 275.164
+episode  1018 score 273.71 trailing 20 games avg 274.495
+episode  1019 score 267.25 trailing 20 games avg 273.966
+episode  1020 score 287.95 trailing 20 games avg 274.895
+episode  1021 score 303.32 trailing 20 games avg 276.636
+episode  1022 score 246.57 trailing 20 games avg 275.554
+episode  1023 score 262.27 trailing 20 games avg 275.277
+episode  1024 score 291.51 trailing 20 games avg 275.306
+episode  1025 score 288.66 trailing 20 games avg 276.149
+episode  1026 score 275.91 trailing 20 games avg 275.567
+episode  1027 score 283.16 trailing 20 games avg 274.887
+episode  1028 score 278.00 trailing 20 games avg 275.183
+episode  1029 score 264.54 trailing 20 games avg 275.994
+episode  1030 score 265.07 trailing 20 games avg 276.188
+episode  1031 score 305.73 trailing 20 games avg 278.292
+episode  1032 score 242.97 trailing 20 games avg 276.679
+episode  1033 score 59.10 trailing 20 games avg 265.608
+episode  1034 score 256.89 trailing 20 games avg 265.425
+episode  1035 score 305.16 trailing 20 games avg 267.578
+episode  1036 score 318.65 trailing 20 games avg 267.919
+episode  1037 score 287.59 trailing 20 games avg 268.200
+episode  1038 score 295.77 trailing 20 games avg 269.303
+episode  1039 score 271.25 trailing 20 games avg 269.503
+episode  1040 score 273.92 trailing 20 games avg 268.801
+episode  1041 score 280.82 trailing 20 games avg 267.677
+episode  1042 score 244.02 trailing 20 games avg 267.549
+episode  1043 score 301.86 trailing 20 games avg 269.529
+episode  1044 score 253.51 trailing 20 games avg 267.629
+episode  1045 score 254.87 trailing 20 games avg 265.940
+episode  1046 score 294.19 trailing 20 games avg 266.853
+episode  1047 score 285.42 trailing 20 games avg 266.967
+episode  1048 score 259.90 trailing 20 games avg 266.061
+episode  1049 score 256.08 trailing 20 games avg 265.639
+episode  1050 score 285.68 trailing 20 games avg 266.669
+episode  1051 score 295.90 trailing 20 games avg 266.178
+episode  1052 score 279.76 trailing 20 games avg 268.017
+episode  1053 score 282.82 trailing 20 games avg 279.204
+episode  1054 score 261.28 trailing 20 games avg 279.423
+episode  1055 score 264.47 trailing 20 games avg 277.388
+episode  1056 score 54.21 trailing 20 games avg 264.167
+episode  1057 score 265.71 trailing 20 games avg 263.073
+episode  1058 score 267.27 trailing 20 games avg 261.647
+episode  1059 score 272.00 trailing 20 games avg 261.685
+episode  1060 score 275.17 trailing 20 games avg 261.747
+episode  1061 score 254.22 trailing 20 games avg 260.417
+episode  1062 score 268.85 trailing 20 games avg 261.659
+episode  1063 score 283.88 trailing 20 games avg 260.760
+episode  1064 score 268.81 trailing 20 games avg 261.525
+episode  1065 score 269.82 trailing 20 games avg 262.272
+episode  1066 score 279.83 trailing 20 games avg 261.554
+episode  1067 score 278.51 trailing 20 games avg 261.208
+episode  1068 score 263.70 trailing 20 games avg 261.399
+episode  1069 score 251.71 trailing 20 games avg 261.180
+episode  1070 score 317.68 trailing 20 games avg 262.780
+episode  1071 score 308.80 trailing 20 games avg 263.425
+episode  1072 score 295.29 trailing 20 games avg 264.201
+episode  1073 score 236.46 trailing 20 games avg 261.883
+episode  1074 score 253.00 trailing 20 games avg 261.469
+episode  1075 score 264.02 trailing 20 games avg 261.446
+episode  1076 score 283.09 trailing 20 games avg 272.891
+episode  1077 score 228.29 trailing 20 games avg 271.020
+episode  1078 score 262.88 trailing 20 games avg 270.800
+episode  1079 score 239.99 trailing 20 games avg 269.200
+episode  1080 score 247.92 trailing 20 games avg 267.837
+episode  1081 score 301.93 trailing 20 games avg 270.223
+episode  1082 score 263.32 trailing 20 games avg 269.946
+episode  1083 score 270.49 trailing 20 games avg 269.276
+episode  1084 score 256.81 trailing 20 games avg 268.676
+episode  1085 score 236.32 trailing 20 games avg 267.001
+episode  1086 score 262.08 trailing 20 games avg 266.114
+episode  1087 score 286.96 trailing 20 games avg 266.537
+episode  1088 score 226.34 trailing 20 games avg 264.668
+episode  1089 score 269.70 trailing 20 games avg 265.568
+episode  1090 score 228.21 trailing 20 games avg 261.095
+episode  1091 score 284.08 trailing 20 games avg 259.858
+episode  1092 score 298.59 trailing 20 games avg 260.023
+episode  1093 score 284.53 trailing 20 games avg 262.427
+episode  1094 score 279.20 trailing 20 games avg 263.737
+episode  1095 score 257.19 trailing 20 games avg 263.396
+episode  1096 score 274.24 trailing 20 games avg 262.953
+episode  1097 score 311.48 trailing 20 games avg 267.113
+episode  1098 score 304.77 trailing 20 games avg 269.207
+episode  1099 score 245.03 trailing 20 games avg 269.459
+episode  1100 score 256.57 trailing 20 games avg 269.891
+episode  1101 score 265.95 trailing 20 games avg 268.092
+episode  1102 score 291.65 trailing 20 games avg 269.509
+episode  1103 score 258.15 trailing 20 games avg 268.892
+episode  1104 score 268.31 trailing 20 games avg 269.466
+episode  1105 score 227.33 trailing 20 games avg 269.017
+episode  1106 score 251.19 trailing 20 games avg 268.472
+episode  1107 score 316.00 trailing 20 games avg 269.924
+episode  1108 score 187.83 trailing 20 games avg 267.999
+episode  1109 score 273.48 trailing 20 games avg 268.188
+episode  1110 score 241.61 trailing 20 games avg 268.858
+episode  1111 score 293.62 trailing 20 games avg 269.335
+episode  1112 score 256.16 trailing 20 games avg 267.214
+episode  1113 score 272.59 trailing 20 games avg 266.617
+episode  1114 score 262.44 trailing 20 games avg 265.779
+episode  1115 score 293.09 trailing 20 games avg 267.574
+episode  1116 score 303.92 trailing 20 games avg 269.058
+episode  1117 score 228.44 trailing 20 games avg 264.906
+episode  1118 score 249.25 trailing 20 games avg 262.130
+episode  1119 score 294.73 trailing 20 games avg 264.615
+episode  1120 score 276.09 trailing 20 games avg 265.592
+episode  1121 score 240.01 trailing 20 games avg 264.295
+episode  1122 score 305.50 trailing 20 games avg 264.987
+episode  1123 score 278.87 trailing 20 games avg 266.023
+episode  1124 score 313.38 trailing 20 games avg 268.276
+episode  1125 score 262.31 trailing 20 games avg 270.025
+episode  1126 score 262.07 trailing 20 games avg 270.570
+episode  1127 score -52.70 trailing 20 games avg 252.134
+episode  1128 score 282.12 trailing 20 games avg 256.849
+episode  1129 score 271.99 trailing 20 games avg 256.775
+episode  1130 score 298.65 trailing 20 games avg 259.627
+episode  1131 score 194.37 trailing 20 games avg 254.664
+episode  1132 score 269.48 trailing 20 games avg 255.330
+episode  1133 score 253.05 trailing 20 games avg 254.353
+episode  1134 score 227.18 trailing 20 games avg 252.590
+episode  1135 score 271.00 trailing 20 games avg 251.485
+episode  1136 score 262.01 trailing 20 games avg 249.390
+episode  1137 score 285.60 trailing 20 games avg 252.248
+episode  1138 score 300.41 trailing 20 games avg 254.806
+episode  1139 score 308.68 trailing 20 games avg 255.504
+episode  1140 score 282.49 trailing 20 games avg 255.824
+episode  1141 score 261.67 trailing 20 games avg 256.907
+episode  1142 score 265.54 trailing 20 games avg 254.909
+episode  1143 score 272.28 trailing 20 games avg 254.580
+episode  1144 score 267.86 trailing 20 games avg 252.304
+episode  1145 score 315.86 trailing 20 games avg 254.981
+episode  1146 score 252.35 trailing 20 games avg 254.495
+episode  1147 score 303.13 trailing 20 games avg 272.287
+episode  1148 score 279.36 trailing 20 games avg 272.149
+episode  1149 score 310.38 trailing 20 games avg 274.068
+episode  1150 score 250.52 trailing 20 games avg 271.662
+episode  1151 score 267.09 trailing 20 games avg 275.298
+episode  1152 score 284.87 trailing 20 games avg 276.067
+episode  1153 score 252.02 trailing 20 games avg 276.016
+episode  1154 score 313.94 trailing 20 games avg 280.354
+episode  1155 score 267.05 trailing 20 games avg 280.156
+episode  1156 score 244.02 trailing 20 games avg 279.257
+episode  1157 score 282.62 trailing 20 games avg 279.107
+episode  1158 score 303.50 trailing 20 games avg 279.262
+episode  1159 score 311.59 trailing 20 games avg 279.407
+episode  1160 score 247.34 trailing 20 games avg 277.650
+episode  1161 score 301.21 trailing 20 games avg 279.627
+episode  1162 score 248.74 trailing 20 games avg 278.787
+episode  1163 score 262.06 trailing 20 games avg 278.276
+episode  1164 score 223.00 trailing 20 games avg 276.033
+episode  1165 score 303.31 trailing 20 games avg 275.405
+episode  1166 score 233.52 trailing 20 games avg 274.463
+episode  1167 score 301.27 trailing 20 games avg 274.370
+episode  1168 score 285.20 trailing 20 games avg 274.662
+episode  1169 score 261.60 trailing 20 games avg 272.223
+episode  1170 score 264.28 trailing 20 games avg 272.911
+episode  1171 score 263.72 trailing 20 games avg 272.743
+episode  1172 score 270.93 trailing 20 games avg 272.046
+episode  1173 score 280.81 trailing 20 games avg 273.485
+episode  1174 score 293.82 trailing 20 games avg 272.479
+episode  1175 score 278.68 trailing 20 games avg 273.061
+episode  1176 score 259.12 trailing 20 games avg 273.815
+episode  1177 score 262.07 trailing 20 games avg 272.788
+episode  1178 score 253.94 trailing 20 games avg 270.310
+episode  1179 score 295.60 trailing 20 games avg 269.510
+episode  1180 score 236.47 trailing 20 games avg 268.967
+episode  1181 score 285.57 trailing 20 games avg 268.184
+episode  1182 score 271.80 trailing 20 games avg 269.337
+episode  1183 score 280.52 trailing 20 games avg 270.260
+episode  1184 score 287.75 trailing 20 games avg 273.498
+episode  1185 score 288.36 trailing 20 games avg 272.750
+episode  1186 score 264.47 trailing 20 games avg 274.298
+episode  1187 score 281.93 trailing 20 games avg 273.331
+episode  1188 score 258.66 trailing 20 games avg 272.004
+episode  1189 score 72.73 trailing 20 games avg 262.561
+episode  1190 score 278.88 trailing 20 games avg 263.290
+episode  1191 score 275.61 trailing 20 games avg 263.885
+episode  1192 score 280.57 trailing 20 games avg 264.367
+episode  1193 score 309.32 trailing 20 games avg 265.793
+episode  1194 score 297.88 trailing 20 games avg 265.996
+episode  1195 score 254.88 trailing 20 games avg 264.806
+episode  1196 score 259.13 trailing 20 games avg 264.807
+episode  1197 score 274.52 trailing 20 games avg 265.429
+episode  1198 score 304.69 trailing 20 games avg 267.967
+episode  1199 score 307.73 trailing 20 games avg 268.573
+episode  1200 score 307.01 trailing 20 games avg 272.100
+episode  1201 score -18.52 trailing 20 games avg 256.896
+episode  1202 score 271.26 trailing 20 games avg 256.869
+episode  1203 score 303.47 trailing 20 games avg 258.016
+episode  1204 score 266.02 trailing 20 games avg 256.930
+episode  1205 score 293.32 trailing 20 games avg 257.178
+episode  1206 score 281.19 trailing 20 games avg 258.014
+episode  1207 score 270.98 trailing 20 games avg 257.467
+episode  1208 score 256.36 trailing 20 games avg 257.352
+episode  1209 score 307.25 trailing 20 games avg 269.078
+episode  1210 score 265.05 trailing 20 games avg 268.387
+episode  1211 score 243.32 trailing 20 games avg 266.772
+episode  1212 score 277.63 trailing 20 games avg 266.625
+episode  1213 score 294.06 trailing 20 games avg 265.861
+episode  1214 score 294.54 trailing 20 games avg 265.694
+episode  1215 score 238.23 trailing 20 games avg 264.862
+episode  1216 score 320.24 trailing 20 games avg 267.917
+episode  1217 score 253.20 trailing 20 games avg 266.852
+episode  1218 score 281.61 trailing 20 games avg 265.698
+episode  1219 score -22.39 trailing 20 games avg 249.192
+episode  1220 score 265.32 trailing 20 games avg 247.107
+episode  1221 score 266.61 trailing 20 games avg 261.364
+episode  1222 score 299.27 trailing 20 games avg 262.765
+episode  1223 score 282.99 trailing 20 games avg 261.741
+episode  1224 score 52.45 trailing 20 games avg 251.062
+episode  1225 score 295.52 trailing 20 games avg 251.172
+episode  1226 score 293.82 trailing 20 games avg 251.803
+episode  1227 score 290.76 trailing 20 games avg 252.792
+episode  1228 score 275.10 trailing 20 games avg 253.729
+episode  1229 score 261.89 trailing 20 games avg 251.461
+episode  1230 score 262.67 trailing 20 games avg 251.342
+episode  1231 score 261.24 trailing 20 games avg 252.238
+episode  1232 score 299.82 trailing 20 games avg 253.348
+episode  1233 score 259.37 trailing 20 games avg 251.614
+episode  1234 score 291.76 trailing 20 games avg 251.475
+episode  1235 score 287.82 trailing 20 games avg 253.954
+episode  1236 score 260.82 trailing 20 games avg 250.983
+episode  1237 score 297.43 trailing 20 games avg 253.194
+episode  1238 score 280.90 trailing 20 games avg 253.159
+episode  1239 score 283.54 trailing 20 games avg 268.456
+episode  1240 score 299.06 trailing 20 games avg 270.142
+episode  1241 score 284.12 trailing 20 games avg 271.018
+episode  1242 score 291.25 trailing 20 games avg 270.617
+episode  1243 score 275.81 trailing 20 games avg 270.258
+episode  1244 score 305.40 trailing 20 games avg 282.905
+episode  1245 score 265.87 trailing 20 games avg 281.423
+episode  1246 score 265.33 trailing 20 games avg 279.998
+episode  1247 score 292.52 trailing 20 games avg 280.086
+episode  1248 score 264.16 trailing 20 games avg 279.539
+episode  1249 score 288.39 trailing 20 games avg 280.864
+episode  1250 score 308.44 trailing 20 games avg 283.153
+episode  1251 score 260.14 trailing 20 games avg 283.097
+episode  1252 score 263.71 trailing 20 games avg 281.292
+episode  1253 score 270.34 trailing 20 games avg 281.840
+episode  1254 score 274.63 trailing 20 games avg 280.984
+episode  1255 score 287.02 trailing 20 games avg 280.944
+episode  1256 score 285.32 trailing 20 games avg 282.169
+episode  1257 score 274.05 trailing 20 games avg 281.000
+episode  1258 score 300.69 trailing 20 games avg 281.989
+episode  1259 score 233.28 trailing 20 games avg 279.477
+episode  1260 score 252.37 trailing 20 games avg 277.142
+episode  1261 score 263.19 trailing 20 games avg 276.095
+episode  1262 score 284.90 trailing 20 games avg 275.778
+episode  1263 score 274.55 trailing 20 games avg 275.714
+episode  1264 score 286.38 trailing 20 games avg 274.763
+episode  1265 score 263.21 trailing 20 games avg 274.630
+episode  1266 score 270.98 trailing 20 games avg 274.913
+episode  1267 score 307.51 trailing 20 games avg 275.663
+episode  1268 score 263.28 trailing 20 games avg 275.619
+episode  1269 score 271.84 trailing 20 games avg 274.791
+episode  1270 score 301.69 trailing 20 games avg 274.454
+episode  1271 score 268.15 trailing 20 games avg 274.855
+episode  1272 score 262.89 trailing 20 games avg 274.814
+episode  1273 score 262.13 trailing 20 games avg 274.404
+episode  1274 score 226.88 trailing 20 games avg 272.016
+episode  1275 score 289.11 trailing 20 games avg 272.121
+episode  1276 score 252.29 trailing 20 games avg 270.469
+episode  1277 score 268.65 trailing 20 games avg 270.199
+episode  1278 score 263.48 trailing 20 games avg 268.338
+episode  1279 score 253.60 trailing 20 games avg 269.354
+episode  1280 score 280.10 trailing 20 games avg 270.741
+episode  1281 score 248.11 trailing 20 games avg 269.987
+episode  1282 score 309.70 trailing 20 games avg 271.227
+episode  1283 score -9.22 trailing 20 games avg 257.038
+episode  1284 score 271.55 trailing 20 games avg 256.297
+episode  1285 score 296.68 trailing 20 games avg 257.970
+episode  1286 score 297.22 trailing 20 games avg 259.282
+episode  1287 score 267.27 trailing 20 games avg 257.270
+episode  1288 score 255.76 trailing 20 games avg 256.894
+episode  1289 score 193.68 trailing 20 games avg 252.985
+episode  1290 score 44.05 trailing 20 games avg 240.103
+episode  1291 score 281.77 trailing 20 games avg 240.784
+episode  1292 score 314.07 trailing 20 games avg 243.343
+episode  1293 score 275.44 trailing 20 games avg 244.008
+episode  1294 score 269.97 trailing 20 games avg 246.163
+episode  1295 score 267.79 trailing 20 games avg 245.097
+episode  1296 score 254.02 trailing 20 games avg 245.183
+episode  1297 score 256.90 trailing 20 games avg 244.596
+episode  1298 score 238.22 trailing 20 games avg 243.333
+episode  1299 score 251.96 trailing 20 games avg 243.251
+episode  1300 score 271.52 trailing 20 games avg 242.822
+episode  1301 score 268.50 trailing 20 games avg 243.841
+episode  1302 score 230.13 trailing 20 games avg 239.863
+episode  1303 score 289.87 trailing 20 games avg 254.817
+episode  1304 score 286.36 trailing 20 games avg 255.558
+episode  1305 score 31.67 trailing 20 games avg 242.307
+episode  1306 score 267.70 trailing 20 games avg 240.831
+episode  1307 score 251.07 trailing 20 games avg 240.021
+episode  1308 score 294.43 trailing 20 games avg 241.955
+episode  1309 score 301.17 trailing 20 games avg 247.330
+episode  1310 score 276.12 trailing 20 games avg 258.933
+episode  1311 score 294.72 trailing 20 games avg 259.581
+episode  1312 score 267.81 trailing 20 games avg 257.268
+episode  1313 score 280.53 trailing 20 games avg 257.523
+episode  1314 score 289.72 trailing 20 games avg 258.510
+episode  1315 score 243.81 trailing 20 games avg 257.311
+episode  1316 score 283.49 trailing 20 games avg 258.785
+episode  1317 score 277.36 trailing 20 games avg 259.808
+episode  1318 score 287.46 trailing 20 games avg 262.270
+episode  1319 score 286.23 trailing 20 games avg 263.983
+episode  1320 score 294.33 trailing 20 games avg 265.124
+episode  1321 score 295.79 trailing 20 games avg 266.489
+episode  1322 score 301.73 trailing 20 games avg 270.069
+episode  1323 score 261.56 trailing 20 games avg 268.653
+episode  1324 score 260.50 trailing 20 games avg 267.360
+episode  1325 score 265.31 trailing 20 games avg 279.042
+episode  1326 score 295.99 trailing 20 games avg 280.457
+episode  1327 score 274.03 trailing 20 games avg 281.605
+episode  1328 score 290.86 trailing 20 games avg 281.426
+episode  1329 score 276.11 trailing 20 games avg 280.173
+episode  1330 score 265.83 trailing 20 games avg 279.658
+episode  1331 score 263.80 trailing 20 games avg 278.112
+episode  1332 score 259.66 trailing 20 games avg 277.705
+episode  1333 score 261.43 trailing 20 games avg 276.750
+episode  1334 score 284.42 trailing 20 games avg 276.485
+episode  1335 score 293.62 trailing 20 games avg 278.976
+episode  1336 score 294.94 trailing 20 games avg 279.548
+episode  1337 score 290.03 trailing 20 games avg 280.182
+episode  1338 score 285.41 trailing 20 games avg 280.079
+episode  1339 score 279.81 trailing 20 games avg 279.759
+episode  1340 score 293.83 trailing 20 games avg 279.733
+episode  1341 score 276.52 trailing 20 games avg 278.770
+episode  1342 score 270.33 trailing 20 games avg 277.199
+episode  1343 score 300.64 trailing 20 games avg 279.153
+episode  1344 score 296.25 trailing 20 games avg 280.941
+episode  1345 score 264.54 trailing 20 games avg 280.902
+episode  1346 score 292.00 trailing 20 games avg 280.703
+episode  1347 score 292.55 trailing 20 games avg 281.629
+episode  1348 score 304.05 trailing 20 games avg 282.289
+episode  1349 score 264.93 trailing 20 games avg 281.730
+episode  1350 score 286.91 trailing 20 games avg 282.784
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  1351 score 287.34 trailing 20 games avg 283.961
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  1352 score 292.18 trailing 20 games avg 285.587
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  1353 score 279.71 trailing 20 games avg 286.501
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  1354 score 311.49 trailing 20 games avg 287.854
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  1355 score 297.64 trailing 20 games avg 288.055
+episode  1356 score 248.83 trailing 20 games avg 285.750
+episode  1357 score 293.83 trailing 20 games avg 285.939
+episode  1358 score 275.88 trailing 20 games avg 285.463
+episode  1359 score 283.21 trailing 20 games avg 285.633
+episode  1360 score 293.45 trailing 20 games avg 285.614
+episode  1361 score 233.82 trailing 20 games avg 283.479
+episode  1362 score 268.34 trailing 20 games avg 283.380
+episode  1363 score 307.86 trailing 20 games avg 283.741
+episode  1364 score 273.10 trailing 20 games avg 282.584
+episode  1365 score 238.15 trailing 20 games avg 281.264
+episode  1366 score 290.81 trailing 20 games avg 281.205
+episode  1367 score 293.62 trailing 20 games avg 281.258
+episode  1368 score 300.55 trailing 20 games avg 281.083
+episode  1369 score 287.07 trailing 20 games avg 282.190
+episode  1370 score 270.75 trailing 20 games avg 281.382
+episode  1371 score 296.03 trailing 20 games avg 281.816
+episode  1372 score 255.62 trailing 20 games avg 279.988
+episode  1373 score 273.16 trailing 20 games avg 279.661
+episode  1374 score 265.18 trailing 20 games avg 277.345
+episode  1375 score 305.37 trailing 20 games avg 277.731
+episode  1376 score 313.60 trailing 20 games avg 280.970
+episode  1377 score 287.66 trailing 20 games avg 280.662
+episode  1378 score 276.54 trailing 20 games avg 280.694
+episode  1379 score 309.40 trailing 20 games avg 282.004
+episode  1380 score 279.14 trailing 20 games avg 281.288
+episode  1381 score 270.82 trailing 20 games avg 283.138
+episode  1382 score 260.01 trailing 20 games avg 282.721
+episode  1383 score 270.99 trailing 20 games avg 280.877
+episode  1384 score 277.16 trailing 20 games avg 281.080
+episode  1385 score 239.11 trailing 20 games avg 281.128
+episode  1386 score 263.25 trailing 20 games avg 279.750
+episode  1387 score 247.37 trailing 20 games avg 277.438
+episode  1388 score 256.82 trailing 20 games avg 275.251
+episode  1389 score 253.74 trailing 20 games avg 273.585
+episode  1390 score 263.82 trailing 20 games avg 273.238
+episode  1391 score 257.55 trailing 20 games avg 271.314
+episode  1392 score 251.92 trailing 20 games avg 271.130
+episode  1393 score 247.11 trailing 20 games avg 269.828
+episode  1394 score 303.73 trailing 20 games avg 271.755
+episode  1395 score 273.39 trailing 20 games avg 270.156
+episode  1396 score 242.03 trailing 20 games avg 266.578
+episode  1397 score 245.24 trailing 20 games avg 264.457
+episode  1398 score 242.50 trailing 20 games avg 262.756
+episode  1399 score 298.95 trailing 20 games avg 262.233
+episode  1400 score 286.62 trailing 20 games avg 262.607
+episode  1401 score 296.07 trailing 20 games avg 263.870
+episode  1402 score 282.46 trailing 20 games avg 264.992
+episode  1403 score 267.89 trailing 20 games avg 264.837
+episode  1404 score 280.02 trailing 20 games avg 264.980
+episode  1405 score 289.50 trailing 20 games avg 267.500
+episode  1406 score 241.62 trailing 20 games avg 266.418
+episode  1407 score 230.15 trailing 20 games avg 265.557
+episode  1408 score 244.37 trailing 20 games avg 264.935
+episode  1409 score 294.90 trailing 20 games avg 266.993
+episode  1410 score 318.56 trailing 20 games avg 269.730
+episode  1411 score 298.72 trailing 20 games avg 271.788
+episode  1412 score 274.38 trailing 20 games avg 272.911
+episode  1413 score 266.72 trailing 20 games avg 273.891
+episode  1414 score 257.72 trailing 20 games avg 271.591
+episode  1415 score 298.29 trailing 20 games avg 272.835
+episode  1416 score 271.34 trailing 20 games avg 274.301
+episode  1417 score 286.61 trailing 20 games avg 276.369
+episode  1418 score 273.79 trailing 20 games avg 277.934
+episode  1419 score 267.67 trailing 20 games avg 276.370
+episode  1420 score 281.64 trailing 20 games avg 276.121
+episode  1421 score 275.94 trailing 20 games avg 275.114
+episode  1422 score 283.57 trailing 20 games avg 275.170
+episode  1423 score 314.21 trailing 20 games avg 277.486
+episode  1424 score 297.94 trailing 20 games avg 278.382
+episode  1425 score 293.64 trailing 20 games avg 278.589
+episode  1426 score 288.34 trailing 20 games avg 280.925
+episode  1427 score 267.77 trailing 20 games avg 282.806
+episode  1428 score 267.17 trailing 20 games avg 283.946
+episode  1429 score 275.15 trailing 20 games avg 282.959
+episode  1430 score 295.01 trailing 20 games avg 281.781
+episode  1431 score 242.38 trailing 20 games avg 278.964
+episode  1432 score 293.08 trailing 20 games avg 279.899
+episode  1433 score 18.69 trailing 20 games avg 267.498
+episode  1434 score 268.16 trailing 20 games avg 268.020
+episode  1435 score 309.57 trailing 20 games avg 268.584
+episode  1436 score 262.52 trailing 20 games avg 268.143
+episode  1437 score 274.72 trailing 20 games avg 267.549
+episode  1438 score 297.67 trailing 20 games avg 268.743
+episode  1439 score 283.89 trailing 20 games avg 269.553
+episode  1440 score 237.42 trailing 20 games avg 267.342
+episode  1441 score 251.46 trailing 20 games avg 266.119
+episode  1442 score 264.08 trailing 20 games avg 265.144
+episode  1443 score 264.93 trailing 20 games avg 262.681
+episode  1444 score 273.00 trailing 20 games avg 261.434
+episode  1445 score 236.74 trailing 20 games avg 258.589
+episode  1446 score 284.18 trailing 20 games avg 258.381
+episode  1447 score 268.56 trailing 20 games avg 258.421
+episode  1448 score 251.70 trailing 20 games avg 257.647
+episode  1449 score 266.07 trailing 20 games avg 257.193
+episode  1450 score 274.67 trailing 20 games avg 256.176
+episode  1451 score 276.51 trailing 20 games avg 257.883
+episode  1452 score 245.04 trailing 20 games avg 255.481
+episode  1453 score 290.66 trailing 20 games avg 269.079
+episode  1454 score 288.91 trailing 20 games avg 270.117
+episode  1455 score 291.44 trailing 20 games avg 269.210
+episode  1456 score 267.08 trailing 20 games avg 269.438
+episode  1457 score 277.76 trailing 20 games avg 269.590
+episode  1458 score 264.88 trailing 20 games avg 267.950
+episode  1459 score 283.65 trailing 20 games avg 267.938
+episode  1460 score 255.63 trailing 20 games avg 268.848
+episode  1461 score 260.70 trailing 20 games avg 269.310
+episode  1462 score 271.83 trailing 20 games avg 269.697
+episode  1463 score 280.23 trailing 20 games avg 270.462
+episode  1464 score 284.06 trailing 20 games avg 271.015
+episode  1465 score 285.25 trailing 20 games avg 273.441
+episode  1466 score 283.06 trailing 20 games avg 273.384
+episode  1467 score 294.86 trailing 20 games avg 274.699
+episode  1468 score 283.09 trailing 20 games avg 276.269
+episode  1469 score 267.99 trailing 20 games avg 276.364
+episode  1470 score 279.32 trailing 20 games avg 276.597
+episode  1471 score 264.96 trailing 20 games avg 276.019
+episode  1472 score 279.48 trailing 20 games avg 277.741
+episode  1473 score 269.10 trailing 20 games avg 276.664
+episode  1474 score 274.95 trailing 20 games avg 275.966
+episode  1475 score 269.20 trailing 20 games avg 274.853
+episode  1476 score 280.72 trailing 20 games avg 275.535
+episode  1477 score 269.76 trailing 20 games avg 275.135
+episode  1478 score 264.70 trailing 20 games avg 275.126
+episode  1479 score 264.93 trailing 20 games avg 274.191
+episode  1480 score 259.62 trailing 20 games avg 274.391
+episode  1481 score 306.99 trailing 20 games avg 276.705
+episode  1482 score 295.24 trailing 20 games avg 277.876
+episode  1483 score 297.72 trailing 20 games avg 278.750
+episode  1484 score 261.86 trailing 20 games avg 277.640
+episode  1485 score 296.63 trailing 20 games avg 278.209
+episode  1486 score 287.12 trailing 20 games avg 278.412
+episode  1487 score 289.58 trailing 20 games avg 278.149
+episode  1488 score 260.54 trailing 20 games avg 277.021
+episode  1489 score 262.93 trailing 20 games avg 276.768
+episode  1490 score 295.19 trailing 20 games avg 277.561
+episode  1491 score 295.99 trailing 20 games avg 279.113
+episode  1492 score 314.57 trailing 20 games avg 280.868
+episode  1493 score 278.26 trailing 20 games avg 281.325
+episode  1494 score 276.96 trailing 20 games avg 281.426
+episode  1495 score 284.35 trailing 20 games avg 282.184
+episode  1496 score 260.73 trailing 20 games avg 281.184
+episode  1497 score 293.71 trailing 20 games avg 282.382
+episode  1498 score 271.96 trailing 20 games avg 282.745
+episode  1499 score 306.51 trailing 20 games avg 284.824
+episode  1500 score 278.51 trailing 20 games avg 285.768
+episode  1501 score 243.68 trailing 20 games avg 282.603
+episode  1502 score 265.17 trailing 20 games avg 281.099
+episode  1503 score 290.67 trailing 20 games avg 280.746
+episode  1504 score 289.45 trailing 20 games avg 282.126
+episode  1505 score 282.04 trailing 20 games avg 281.396
+episode  1506 score 263.24 trailing 20 games avg 280.202
+episode  1507 score 289.18 trailing 20 games avg 280.182
+episode  1508 score 265.79 trailing 20 games avg 280.445
+episode  1509 score 278.28 trailing 20 games avg 281.212
+episode  1510 score 286.69 trailing 20 games avg 280.787
+episode  1511 score 256.07 trailing 20 games avg 278.791
+episode  1512 score 290.72 trailing 20 games avg 277.598
+episode  1513 score 254.76 trailing 20 games avg 276.424
+episode  1514 score 301.15 trailing 20 games avg 277.633
+episode  1515 score 299.48 trailing 20 games avg 278.389
+episode  1516 score 273.98 trailing 20 games avg 279.051
+episode  1517 score 291.76 trailing 20 games avg 278.954
+episode  1518 score 287.37 trailing 20 games avg 279.724
+episode  1519 score 276.07 trailing 20 games avg 278.202
+episode  1520 score 244.08 trailing 20 games avg 276.481
+episode  1521 score 299.08 trailing 20 games avg 279.251
+episode  1522 score 259.92 trailing 20 games avg 278.989
+episode  1523 score 223.98 trailing 20 games avg 275.654
+episode  1524 score 232.63 trailing 20 games avg 272.812
+episode  1525 score 286.98 trailing 20 games avg 273.060
+episode  1526 score 262.12 trailing 20 games avg 273.003
+episode  1527 score 308.96 trailing 20 games avg 273.993
+episode  1528 score 276.73 trailing 20 games avg 274.540
+episode  1529 score 286.24 trailing 20 games avg 274.938
+episode  1530 score 266.48 trailing 20 games avg 273.928
+episode  1531 score 269.22 trailing 20 games avg 274.585
+episode  1532 score 297.54 trailing 20 games avg 274.926
+episode  1533 score 239.00 trailing 20 games avg 274.138
+episode  1534 score 308.50 trailing 20 games avg 274.505
+episode  1535 score 232.40 trailing 20 games avg 271.151
+episode  1536 score 262.62 trailing 20 games avg 270.583
+episode  1537 score 243.51 trailing 20 games avg 268.171
+episode  1538 score 311.89 trailing 20 games avg 269.398
+episode  1539 score 259.74 trailing 20 games avg 268.581
+episode  1540 score 263.18 trailing 20 games avg 269.536
+episode  1541 score 263.13 trailing 20 games avg 267.739
+episode  1542 score 248.52 trailing 20 games avg 267.169
+episode  1543 score 291.24 trailing 20 games avg 270.532
+episode  1544 score 252.35 trailing 20 games avg 271.518
+episode  1545 score 234.43 trailing 20 games avg 268.891
+episode  1546 score 249.05 trailing 20 games avg 268.237
+episode  1547 score 264.49 trailing 20 games avg 266.013
+episode  1548 score 239.59 trailing 20 games avg 264.156
+episode  1549 score 293.44 trailing 20 games avg 264.516
+episode  1550 score 274.44 trailing 20 games avg 264.915
+episode  1551 score 288.56 trailing 20 games avg 265.882
+episode  1552 score 289.69 trailing 20 games avg 265.489
+episode  1553 score 283.17 trailing 20 games avg 267.698
+episode  1554 score 297.38 trailing 20 games avg 267.142
+episode  1555 score 265.89 trailing 20 games avg 268.817
+episode  1556 score 281.73 trailing 20 games avg 269.773
+episode  1557 score 276.50 trailing 20 games avg 271.422
+episode  1558 score 279.48 trailing 20 games avg 269.801
+episode  1559 score 270.75 trailing 20 games avg 270.351
+episode  1560 score 266.83 trailing 20 games avg 270.534
+episode  1561 score 267.67 trailing 20 games avg 270.761
+episode  1562 score 257.83 trailing 20 games avg 271.226
+episode  1563 score 286.08 trailing 20 games avg 270.968
+episode  1564 score 268.52 trailing 20 games avg 271.776
+episode  1565 score 292.13 trailing 20 games avg 274.661
+episode  1566 score 275.93 trailing 20 games avg 276.005
+episode  1567 score 269.61 trailing 20 games avg 276.261
+episode  1568 score 280.90 trailing 20 games avg 278.326
+episode  1569 score 290.73 trailing 20 games avg 278.191
+episode  1570 score 254.89 trailing 20 games avg 277.213
+episode  1571 score 260.10 trailing 20 games avg 275.790
+episode  1572 score 277.67 trailing 20 games avg 275.189
+episode  1573 score 286.47 trailing 20 games avg 275.354
+episode  1574 score 266.38 trailing 20 games avg 273.803
+episode  1575 score 275.89 trailing 20 games avg 274.303
+episode  1576 score 292.28 trailing 20 games avg 274.830
+episode  1577 score 263.35 trailing 20 games avg 274.173
+episode  1578 score 251.66 trailing 20 games avg 272.782
+episode  1579 score 299.45 trailing 20 games avg 274.217
+episode  1580 score 278.48 trailing 20 games avg 274.800
+episode  1581 score 277.98 trailing 20 games avg 275.315
+episode  1582 score 276.31 trailing 20 games avg 276.239
+episode  1583 score 263.63 trailing 20 games avg 275.117
+episode  1584 score 288.47 trailing 20 games avg 276.114
+episode  1585 score 241.54 trailing 20 games avg 273.585
+episode  1586 score 285.68 trailing 20 games avg 274.073
+episode  1587 score 280.14 trailing 20 games avg 274.599
+episode  1588 score 259.12 trailing 20 games avg 273.510
+episode  1589 score 292.03 trailing 20 games avg 273.575
+episode  1590 score 267.76 trailing 20 games avg 274.219
+episode  1591 score 257.51 trailing 20 games avg 274.090
+episode  1592 score 257.48 trailing 20 games avg 273.081
+episode  1593 score 281.80 trailing 20 games avg 272.847
+episode  1594 score 283.37 trailing 20 games avg 273.697
+episode  1595 score 272.79 trailing 20 games avg 273.542
+episode  1596 score 288.14 trailing 20 games avg 273.335
+episode  1597 score 305.19 trailing 20 games avg 275.427
+episode  1598 score 223.28 trailing 20 games avg 274.008
+episode  1599 score 261.75 trailing 20 games avg 272.123
+episode  1600 score 252.14 trailing 20 games avg 270.806
+episode  1601 score 285.75 trailing 20 games avg 271.195
+episode  1602 score 296.16 trailing 20 games avg 272.187
+episode  1603 score 303.12 trailing 20 games avg 274.161
+episode  1604 score 255.26 trailing 20 games avg 272.501
+episode  1605 score 263.26 trailing 20 games avg 273.587
+episode  1606 score 250.39 trailing 20 games avg 271.822
+episode  1607 score 262.68 trailing 20 games avg 270.949
+episode  1608 score 236.99 trailing 20 games avg 269.842
+episode  1609 score 264.52 trailing 20 games avg 268.467
+episode  1610 score 302.70 trailing 20 games avg 270.214
+episode  1611 score 269.71 trailing 20 games avg 270.824
+episode  1612 score 272.13 trailing 20 games avg 271.556
+episode  1613 score 271.69 trailing 20 games avg 271.051
+episode  1614 score 282.77 trailing 20 games avg 271.021
+episode  1615 score 294.89 trailing 20 games avg 272.126
+episode  1616 score 276.99 trailing 20 games avg 271.569
+episode  1617 score 297.19 trailing 20 games avg 271.169
+episode  1618 score 285.90 trailing 20 games avg 274.300
+episode  1619 score 280.38 trailing 20 games avg 275.231
+episode  1620 score 266.74 trailing 20 games avg 275.961
+episode  1621 score 292.14 trailing 20 games avg 276.281
+episode  1622 score 259.99 trailing 20 games avg 274.472
+episode  1623 score 27.35 trailing 20 games avg 260.684
+episode  1624 score 273.96 trailing 20 games avg 261.619
+episode  1625 score 284.71 trailing 20 games avg 262.692
+episode  1626 score 288.52 trailing 20 games avg 264.598
+episode  1627 score 267.17 trailing 20 games avg 264.823
+episode  1628 score 309.36 trailing 20 games avg 268.441
+episode  1629 score 295.41 trailing 20 games avg 269.986
+episode  1630 score 295.37 trailing 20 games avg 269.619
+episode  1631 score 247.11 trailing 20 games avg 268.489
+episode  1632 score 278.17 trailing 20 games avg 268.791
+episode  1633 score 262.94 trailing 20 games avg 268.354
+episode  1634 score 259.75 trailing 20 games avg 267.203
+episode  1635 score 281.20 trailing 20 games avg 266.518
+episode  1636 score 281.98 trailing 20 games avg 266.768
+episode  1637 score 293.81 trailing 20 games avg 266.599
+episode  1638 score 34.11 trailing 20 games avg 254.010
+episode  1639 score 273.51 trailing 20 games avg 253.666
+episode  1640 score 302.72 trailing 20 games avg 255.465
+episode  1641 score 251.82 trailing 20 games avg 253.448
+episode  1642 score 274.95 trailing 20 games avg 254.196
+episode  1643 score 302.30 trailing 20 games avg 267.944
+episode  1644 score 290.21 trailing 20 games avg 268.756
+episode  1645 score 291.41 trailing 20 games avg 269.091
+episode  1646 score 179.08 trailing 20 games avg 263.619
+episode  1647 score 292.72 trailing 20 games avg 264.897
+episode  1648 score 264.61 trailing 20 games avg 262.659
+episode  1649 score 305.77 trailing 20 games avg 263.177
+episode  1650 score 288.74 trailing 20 games avg 262.845
+episode  1651 score 285.31 trailing 20 games avg 264.756
+episode  1652 score 274.71 trailing 20 games avg 264.582
+episode  1653 score 280.93 trailing 20 games avg 265.482
+episode  1654 score 294.38 trailing 20 games avg 267.213
+episode  1655 score 266.40 trailing 20 games avg 266.473
+episode  1656 score 271.77 trailing 20 games avg 265.962
+episode  1657 score 252.31 trailing 20 games avg 263.888
+episode  1658 score 286.02 trailing 20 games avg 276.483
+episode  1659 score 311.35 trailing 20 games avg 278.376
+episode  1660 score 257.73 trailing 20 games avg 276.126
+episode  1661 score 303.26 trailing 20 games avg 278.698
+episode  1662 score 278.92 trailing 20 games avg 278.897
+episode  1663 score 308.55 trailing 20 games avg 279.209
+episode  1664 score 269.70 trailing 20 games avg 278.183
+episode  1665 score 298.29 trailing 20 games avg 278.528
+episode  1666 score 267.28 trailing 20 games avg 282.938
+episode  1667 score 284.23 trailing 20 games avg 282.514
+episode  1668 score 279.71 trailing 20 games avg 283.268
+episode  1669 score 242.31 trailing 20 games avg 280.095
+episode  1670 score 256.72 trailing 20 games avg 278.495
+episode  1671 score 294.70 trailing 20 games avg 278.964
+episode  1672 score 273.75 trailing 20 games avg 278.916
+episode  1673 score 279.88 trailing 20 games avg 278.864
+episode  1674 score 240.11 trailing 20 games avg 276.150
+episode  1675 score 275.47 trailing 20 games avg 276.604
+episode  1676 score 255.06 trailing 20 games avg 275.768
+episode  1677 score 289.25 trailing 20 games avg 277.615
+episode  1678 score 309.05 trailing 20 games avg 278.766
+episode  1679 score 278.44 trailing 20 games avg 277.120
+episode  1680 score 271.45 trailing 20 games avg 277.806
+episode  1681 score 292.92 trailing 20 games avg 277.289
+episode  1682 score 251.11 trailing 20 games avg 275.899
+episode  1683 score 298.42 trailing 20 games avg 275.392
+episode  1684 score 265.13 trailing 20 games avg 275.164
+episode  1685 score 250.00 trailing 20 games avg 272.749
+episode  1686 score 274.03 trailing 20 games avg 273.087
+episode  1687 score 269.77 trailing 20 games avg 272.364
+episode  1688 score 7.88 trailing 20 games avg 258.772
+episode  1689 score 245.34 trailing 20 games avg 258.924
+episode  1690 score 243.48 trailing 20 games avg 258.262
+episode  1691 score -84.94 trailing 20 games avg 239.279
+episode  1692 score 270.71 trailing 20 games avg 239.127
+episode  1693 score 231.87 trailing 20 games avg 236.727
+episode  1694 score 305.49 trailing 20 games avg 239.996
+episode  1695 score -5.32 trailing 20 games avg 225.957
+episode  1696 score 290.96 trailing 20 games avg 227.752
+episode  1697 score -112.85 trailing 20 games avg 207.647
+episode  1698 score -132.59 trailing 20 games avg 185.565
+episode  1699 score 314.89 trailing 20 games avg 187.387
+episode  1700 score 276.19 trailing 20 games avg 187.624
+episode  1701 score 277.49 trailing 20 games avg 186.853
+episode  1702 score -118.57 trailing 20 games avg 168.368
+episode  1703 score 280.42 trailing 20 games avg 167.468
+episode  1704 score 275.40 trailing 20 games avg 167.982
+episode  1705 score 259.76 trailing 20 games avg 168.470
+episode  1706 score 296.34 trailing 20 games avg 169.585
+episode  1707 score 267.65 trailing 20 games avg 169.479
+episode  1708 score 273.44 trailing 20 games avg 182.757
+episode  1709 score 275.73 trailing 20 games avg 184.276
+episode  1710 score 268.71 trailing 20 games avg 185.538
+episode  1711 score 282.01 trailing 20 games avg 203.885
+episode  1712 score 295.22 trailing 20 games avg 205.111
+episode  1713 score 257.74 trailing 20 games avg 206.405
+episode  1714 score -157.84 trailing 20 games avg 183.238
+episode  1715 score 311.63 trailing 20 games avg 199.086
+episode  1716 score 302.56 trailing 20 games avg 199.665
+episode  1717 score 290.00 trailing 20 games avg 219.808
+episode  1718 score 41.59 trailing 20 games avg 228.517
+episode  1719 score 295.11 trailing 20 games avg 227.528
+episode  1720 score 243.21 trailing 20 games avg 225.879
+episode  1721 score 282.00 trailing 20 games avg 226.105
+episode  1722 score 305.26 trailing 20 games avg 247.296
+episode  1723 score 261.16 trailing 20 games avg 246.334
+episode  1724 score 305.97 trailing 20 games avg 247.862
+episode  1725 score 300.65 trailing 20 games avg 249.907
+episode  1726 score 254.20 trailing 20 games avg 247.800
+episode  1727 score 262.66 trailing 20 games avg 247.551
+episode  1728 score 264.21 trailing 20 games avg 247.090
+episode  1729 score 291.56 trailing 20 games avg 247.881
+episode  1730 score 247.12 trailing 20 games avg 246.802
+episode  1731 score 285.31 trailing 20 games avg 246.967
+episode  1732 score 281.65 trailing 20 games avg 246.288
+episode  1733 score 214.35 trailing 20 games avg 244.118
+episode  1734 score 245.97 trailing 20 games avg 264.309
+episode  1735 score 286.75 trailing 20 games avg 263.065
+episode  1736 score 282.00 trailing 20 games avg 262.037
+episode  1737 score 233.81 trailing 20 games avg 259.228
+episode  1738 score 303.69 trailing 20 games avg 272.333
+episode  1739 score 275.69 trailing 20 games avg 271.362
+episode  1740 score 253.68 trailing 20 games avg 271.886
+episode  1741 score 251.38 trailing 20 games avg 270.355
+episode  1742 score 289.85 trailing 20 games avg 269.584
+episode  1743 score 283.38 trailing 20 games avg 270.696
+episode  1744 score 281.68 trailing 20 games avg 269.481
+episode  1745 score 252.95 trailing 20 games avg 267.096
+episode  1746 score 288.01 trailing 20 games avg 268.786
+episode  1747 score 286.76 trailing 20 games avg 269.991
+episode  1748 score 317.61 trailing 20 games avg 272.661
+episode  1749 score 272.17 trailing 20 games avg 271.691
+episode  1750 score 54.26 trailing 20 games avg 262.048
+episode  1751 score 277.58 trailing 20 games avg 261.661
+episode  1752 score 281.87 trailing 20 games avg 261.673
+episode  1753 score 274.61 trailing 20 games avg 264.685
+episode  1754 score 248.90 trailing 20 games avg 264.832
+episode  1755 score 263.45 trailing 20 games avg 263.666
+episode  1756 score 257.55 trailing 20 games avg 262.444
+episode  1757 score 300.50 trailing 20 games avg 265.778
+episode  1758 score 279.25 trailing 20 games avg 264.556
+episode  1759 score 258.19 trailing 20 games avg 263.681
+episode  1760 score 298.78 trailing 20 games avg 265.936
+episode  1761 score 275.25 trailing 20 games avg 267.129
+episode  1762 score 270.42 trailing 20 games avg 266.157
+episode  1763 score 262.75 trailing 20 games avg 265.126
+episode  1764 score 292.28 trailing 20 games avg 265.656
+episode  1765 score 314.51 trailing 20 games avg 268.734
+episode  1766 score 289.28 trailing 20 games avg 268.798
+episode  1767 score 295.27 trailing 20 games avg 269.223
+episode  1768 score 267.68 trailing 20 games avg 266.726
+episode  1769 score 283.91 trailing 20 games avg 267.314
+episode  1770 score 278.54 trailing 20 games avg 278.528
+episode  1771 score 269.26 trailing 20 games avg 278.112
+episode  1772 score 267.50 trailing 20 games avg 277.393
+episode  1773 score 304.99 trailing 20 games avg 278.913
+episode  1774 score 283.66 trailing 20 games avg 280.651
+episode  1775 score 269.09 trailing 20 games avg 280.933
+episode  1776 score 251.11 trailing 20 games avg 280.611
+episode  1777 score 275.92 trailing 20 games avg 279.382
+episode  1778 score 293.19 trailing 20 games avg 280.079
+episode  1779 score 275.88 trailing 20 games avg 280.963
+episode  1780 score 45.80 trailing 20 games avg 268.314
+episode  1781 score 271.08 trailing 20 games avg 268.106
+episode  1782 score 252.02 trailing 20 games avg 267.186
+episode  1783 score 260.43 trailing 20 games avg 267.070
+episode  1784 score 295.87 trailing 20 games avg 267.250
+episode  1785 score 289.32 trailing 20 games avg 265.990
+episode  1786 score 279.96 trailing 20 games avg 265.524
+episode  1787 score 254.97 trailing 20 games avg 263.509
+episode  1788 score 281.51 trailing 20 games avg 264.201
+episode  1789 score 276.02 trailing 20 games avg 263.806
+episode  1790 score 249.62 trailing 20 games avg 262.360
+episode  1791 score 272.90 trailing 20 games avg 262.542
+episode  1792 score 288.80 trailing 20 games avg 263.607
+episode  1793 score 300.79 trailing 20 games avg 263.397
+episode  1794 score 284.04 trailing 20 games avg 263.416
+episode  1795 score 296.61 trailing 20 games avg 264.792
+episode  1796 score 259.98 trailing 20 games avg 265.235
+episode  1797 score 272.01 trailing 20 games avg 265.040
+episode  1798 score 261.11 trailing 20 games avg 263.436
+episode  1799 score 285.80 trailing 20 games avg 263.932
+episode  1800 score 309.40 trailing 20 games avg 277.112
+episode  1801 score 297.18 trailing 20 games avg 278.418
+episode  1802 score 285.64 trailing 20 games avg 280.099
+episode  1803 score 296.24 trailing 20 games avg 281.889
+episode  1804 score 309.61 trailing 20 games avg 282.576
+episode  1805 score 293.05 trailing 20 games avg 282.763
+episode  1806 score 251.98 trailing 20 games avg 281.364
+episode  1807 score 268.32 trailing 20 games avg 282.031
+episode  1808 score 286.56 trailing 20 games avg 282.284
+episode  1809 score 295.90 trailing 20 games avg 283.278
+episode  1810 score 286.61 trailing 20 games avg 285.127
+episode  1811 score 297.86 trailing 20 games avg 286.375
+episode  1812 score 265.68 trailing 20 games avg 285.219
+episode  1813 score 295.58 trailing 20 games avg 284.959
+episode  1814 score 279.11 trailing 20 games avg 284.712
+episode  1815 score 270.23 trailing 20 games avg 283.393
+episode  1816 score 238.54 trailing 20 games avg 282.322
+episode  1817 score 306.32 trailing 20 games avg 284.037
+episode  1818 score 279.13 trailing 20 games avg 284.938
+episode  1819 score 243.10 trailing 20 games avg 282.803
+episode  1820 score 280.41 trailing 20 games avg 281.353
+episode  1821 score 268.18 trailing 20 games avg 279.903
+episode  1822 score 293.48 trailing 20 games avg 280.295
+episode  1823 score 288.40 trailing 20 games avg 279.902
+episode  1824 score 308.03 trailing 20 games avg 279.823
+episode  1825 score 277.95 trailing 20 games avg 279.068
+episode  1826 score 284.49 trailing 20 games avg 280.693
+episode  1827 score 296.72 trailing 20 games avg 282.114
+episode  1828 score 293.07 trailing 20 games avg 282.439
+episode  1829 score 294.66 trailing 20 games avg 282.377
+episode  1830 score 286.76 trailing 20 games avg 282.385
+episode  1831 score 272.36 trailing 20 games avg 281.110
+episode  1832 score 254.98 trailing 20 games avg 280.575
+episode  1833 score 229.14 trailing 20 games avg 277.253
+episode  1834 score 267.62 trailing 20 games avg 276.678
+episode  1835 score 279.26 trailing 20 games avg 277.130
+episode  1836 score 291.09 trailing 20 games avg 279.757
+episode  1837 score 272.02 trailing 20 games avg 278.042
+episode  1838 score 296.72 trailing 20 games avg 278.922
+episode  1839 score 305.26 trailing 20 games avg 282.030
+episode  1840 score 311.01 trailing 20 games avg 283.560
+episode  1841 score 307.25 trailing 20 games avg 285.513
+episode  1842 score 271.32 trailing 20 games avg 284.405
+episode  1843 score 259.90 trailing 20 games avg 282.980
+episode  1844 score 319.08 trailing 20 games avg 283.533
+episode  1845 score 254.14 trailing 20 games avg 282.342
+episode  1846 score 301.14 trailing 20 games avg 283.175
+episode  1847 score 293.67 trailing 20 games avg 283.022
+episode  1848 score 275.10 trailing 20 games avg 282.123
+episode  1849 score 112.97 trailing 20 games avg 273.039
+episode  1850 score 299.82 trailing 20 games avg 273.692
+episode  1851 score 301.04 trailing 20 games avg 275.126
+episode  1852 score 285.43 trailing 20 games avg 276.649
+episode  1853 score 294.40 trailing 20 games avg 279.912
+episode  1854 score 266.10 trailing 20 games avg 279.836
+episode  1855 score 305.35 trailing 20 games avg 281.141
+episode  1856 score 294.47 trailing 20 games avg 281.310
+episode  1857 score 300.95 trailing 20 games avg 282.757
+episode  1858 score 265.00 trailing 20 games avg 281.170
+episode  1859 score 279.28 trailing 20 games avg 279.871
+episode  1860 score 288.75 trailing 20 games avg 278.758
+episode  1861 score 318.26 trailing 20 games avg 279.308
+episode  1862 score 298.66 trailing 20 games avg 280.675
+episode  1863 score 278.74 trailing 20 games avg 281.617
+episode  1864 score 287.87 trailing 20 games avg 280.056
+episode  1865 score 274.11 trailing 20 games avg 281.055
+episode  1866 score 298.89 trailing 20 games avg 280.943
+episode  1867 score 251.47 trailing 20 games avg 278.833
+episode  1868 score 279.11 trailing 20 games avg 279.034
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+... saving checkpoint ...
+episode  1869 score 301.81 trailing 20 games avg 288.476
+episode  1870 score 299.60 trailing 20 games avg 288.465
+episode  1871 score 273.15 trailing 20 games avg 287.070
+episode  1872 score 267.57 trailing 20 games avg 286.176
+episode  1873 score 274.13 trailing 20 games avg 285.163
+episode  1874 score 267.90 trailing 20 games avg 285.253
+episode  1875 score 281.12 trailing 20 games avg 284.041
+episode  1876 score 197.62 trailing 20 games avg 279.199
+episode  1877 score 270.10 trailing 20 games avg 277.656
+episode  1878 score 276.77 trailing 20 games avg 278.245
+episode  1879 score 269.49 trailing 20 games avg 277.755
+episode  1880 score 246.86 trailing 20 games avg 275.661
+episode  1881 score 297.16 trailing 20 games avg 274.606
+episode  1882 score 274.68 trailing 20 games avg 273.407
+episode  1883 score 248.90 trailing 20 games avg 271.915
+episode  1884 score 286.70 trailing 20 games avg 271.857
+episode  1885 score 268.29 trailing 20 games avg 271.565
+episode  1886 score 263.14 trailing 20 games avg 269.778
+episode  1887 score 289.81 trailing 20 games avg 271.695
+episode  1888 score 276.85 trailing 20 games avg 271.582
+episode  1889 score 303.89 trailing 20 games avg 271.686
+episode  1890 score 277.82 trailing 20 games avg 270.597
+episode  1891 score 278.20 trailing 20 games avg 270.849
+episode  1892 score 289.61 trailing 20 games avg 271.951
+episode  1893 score 291.01 trailing 20 games avg 272.796
+episode  1894 score 295.60 trailing 20 games avg 274.181
+episode  1895 score 276.25 trailing 20 games avg 273.937
+episode  1896 score 270.28 trailing 20 games avg 277.570
+episode  1897 score 264.32 trailing 20 games avg 277.281
+episode  1898 score 262.67 trailing 20 games avg 276.576
+episode  1899 score 299.39 trailing 20 games avg 278.071
+episode  1900 score 298.78 trailing 20 games avg 280.667
+episode  1901 score 257.54 trailing 20 games avg 278.686
+episode  1902 score 287.62 trailing 20 games avg 279.334
+episode  1903 score 262.46 trailing 20 games avg 280.012
+episode  1904 score 301.68 trailing 20 games avg 280.761
+episode  1905 score 293.44 trailing 20 games avg 282.019
+episode  1906 score 244.79 trailing 20 games avg 281.101
+episode  1907 score 273.99 trailing 20 games avg 280.310
+episode  1908 score 275.31 trailing 20 games avg 280.233
+episode  1909 score 294.22 trailing 20 games avg 279.750
+episode  1910 score 255.41 trailing 20 games avg 278.629
+episode  1911 score 279.23 trailing 20 games avg 278.681
+episode  1912 score 297.36 trailing 20 games avg 279.068
+episode  1913 score 283.03 trailing 20 games avg 278.669
+episode  1914 score 292.00 trailing 20 games avg 278.489
+episode  1915 score 305.90 trailing 20 games avg 279.971
+episode  1916 score 267.17 trailing 20 games avg 279.816
+episode  1917 score 309.83 trailing 20 games avg 282.092
+episode  1918 score 283.58 trailing 20 games avg 283.137
+episode  1919 score 291.48 trailing 20 games avg 282.742
+episode  1920 score 251.42 trailing 20 games avg 280.374
+episode  1921 score 294.82 trailing 20 games avg 282.238
+episode  1922 score 312.55 trailing 20 games avg 283.484
+episode  1923 score 268.11 trailing 20 games avg 283.766
+episode  1924 score 276.86 trailing 20 games avg 282.526
+episode  1925 score 283.93 trailing 20 games avg 282.050
+episode  1926 score 254.11 trailing 20 games avg 282.516
+episode  1927 score 262.02 trailing 20 games avg 281.918
+episode  1928 score 287.23 trailing 20 games avg 282.514
+episode  1929 score 257.27 trailing 20 games avg 280.666
+episode  1930 score 264.70 trailing 20 games avg 281.131
+episode  1931 score 294.40 trailing 20 games avg 281.889
+episode  1932 score 298.79 trailing 20 games avg 281.961
+episode  1933 score 268.54 trailing 20 games avg 281.236
+episode  1934 score 294.21 trailing 20 games avg 281.346
+episode  1935 score 292.37 trailing 20 games avg 280.670
+episode  1936 score 291.88 trailing 20 games avg 281.906
+episode  1937 score 264.39 trailing 20 games avg 279.634
+episode  1938 score 272.59 trailing 20 games avg 279.084
+episode  1939 score 261.23 trailing 20 games avg 277.572
+episode  1940 score 259.66 trailing 20 games avg 277.984
+episode  1941 score 292.25 trailing 20 games avg 277.855
+episode  1942 score 288.27 trailing 20 games avg 276.641
+episode  1943 score 268.04 trailing 20 games avg 276.638
+episode  1944 score 282.15 trailing 20 games avg 276.902
+episode  1945 score 285.28 trailing 20 games avg 276.969
+episode  1946 score 271.48 trailing 20 games avg 277.838
+episode  1947 score 267.25 trailing 20 games avg 278.099
+episode  1948 score 239.03 trailing 20 games avg 275.689
+episode  1949 score 260.76 trailing 20 games avg 275.863
+episode  1950 score 285.45 trailing 20 games avg 276.901
+episode  1951 score -13.17 trailing 20 games avg 261.522
+episode  1952 score 276.95 trailing 20 games avg 260.431
+episode  1953 score 287.98 trailing 20 games avg 261.403
+episode  1954 score 261.12 trailing 20 games avg 259.748
+episode  1955 score 271.36 trailing 20 games avg 258.697
+episode  1956 score 310.60 trailing 20 games avg 259.634
+episode  1957 score 278.40 trailing 20 games avg 260.334
+episode  1958 score 301.80 trailing 20 games avg 261.794
+episode  1959 score 302.10 trailing 20 games avg 263.838
+episode  1960 score 246.69 trailing 20 games avg 263.189
+episode  1961 score 280.75 trailing 20 games avg 262.614
+episode  1962 score 294.14 trailing 20 games avg 262.908
+episode  1963 score 241.95 trailing 20 games avg 261.603
+episode  1964 score 281.93 trailing 20 games avg 261.593
+episode  1965 score 286.83 trailing 20 games avg 261.670
+episode  1966 score 270.41 trailing 20 games avg 261.617
+episode  1967 score 274.78 trailing 20 games avg 261.994
+episode  1968 score 282.85 trailing 20 games avg 264.185
+episode  1969 score 302.43 trailing 20 games avg 266.268
+episode  1970 score 285.76 trailing 20 games avg 266.284
+episode  1971 score 240.31 trailing 20 games avg 278.957
+episode  1972 score 259.80 trailing 20 games avg 278.099
+episode  1973 score 282.65 trailing 20 games avg 277.833
+episode  1974 score 298.63 trailing 20 games avg 279.709
+episode  1975 score 266.90 trailing 20 games avg 279.486
+episode  1976 score 252.18 trailing 20 games avg 276.564
+episode  1977 score 289.47 trailing 20 games avg 277.118
+episode  1978 score 254.31 trailing 20 games avg 274.743
+episode  1979 score 291.54 trailing 20 games avg 274.215
+episode  1980 score 292.48 trailing 20 games avg 276.505
+episode  1981 score 251.58 trailing 20 games avg 275.046
+episode  1982 score 285.99 trailing 20 games avg 274.639
+episode  1983 score 263.69 trailing 20 games avg 275.726
+episode  1984 score 279.34 trailing 20 games avg 275.596
+episode  1985 score 270.83 trailing 20 games avg 274.796
+episode  1986 score 298.36 trailing 20 games avg 276.193
+episode  1987 score 282.33 trailing 20 games avg 276.571
+episode  1988 score 276.73 trailing 20 games avg 276.265
+episode  1989 score 316.02 trailing 20 games avg 276.944
+episode  1990 score 292.06 trailing 20 games avg 277.259
+episode  1991 score 315.17 trailing 20 games avg 281.002
+episode  1992 score 291.60 trailing 20 games avg 282.592
+episode  1993 score 264.72 trailing 20 games avg 281.696
+episode  1994 score 295.35 trailing 20 games avg 281.532
+episode  1995 score 269.16 trailing 20 games avg 281.645
+episode  1996 score 309.73 trailing 20 games avg 284.523
+episode  1997 score 285.55 trailing 20 games avg 284.327
+episode  1998 score 283.19 trailing 20 games avg 285.771
+episode  1999 score 265.36 trailing 20 games avg 284.462
+
+Process finished with exit code 0

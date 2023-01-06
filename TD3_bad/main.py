@@ -14,10 +14,10 @@ num_of_hidden_layers = 2  # 1 if we want 1 Hidden Layer, 2 if we want 2 Hidden L
 actor_lr = 1e-4  # Actor learning rate
 critic_lr = 1e-3  # Critic learning rate
 gamma = 0.99  # Discounting factor
-tau = 0.005  # Target update factor
-memory_size = 50000  # Memory size
+tau = 1e-3  # Target update factor
+memory_size = 1000000  # Memory size
 number_of_elements = 5000  # Number of elements in memory
-num_episodes = 2000  # Training episodes
+num_episodes = 200  # Training episodes
 batch_size = 64  # Batch size
 eval_episodes = 5  # Number of evaluation episodes
 popicy_delay = 2  # Frequency we want to update the policy
@@ -26,9 +26,11 @@ td3_file = 'TD3_Agent'  # Name we want to save
 directory = 'saves'  # Directory where we want to save
 
 ddpg_env = gym.make('LunarLander-v2', continuous=True)
+ddpg_env = gym.make('Pendulum-v1')
 ddpg_env = gym.wrappers.RecordVideo(ddpg_env, f"videos/{ddpg_file}")
 
 td3_env = gym.make('LunarLander-v2', continuous=True)
+td3_env = gym.make('Pendulum-v1')
 td3_env = gym.wrappers.RecordVideo(td3_env, f"videos/{td3_file}")
 
 # Create Agents

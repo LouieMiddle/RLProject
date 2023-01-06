@@ -79,7 +79,7 @@ class DDPGActor2(nn.Module):
         return x
 
 
-# TD3 NETWORKS
+# TD3_bad NETWORKS
 
 class TD3Critic1(nn.Module):
     def __init__(self, input_size, hidden_size1, output_size=1):

@@ -1,3 +1,12 @@
 .idea/*
-TD3/saves/*
-TD3/videos/*
+TD3_bad/saves/*
+TD3_bad/videos/*
+TD3_good/plots/*
+TD3_good/videos/*
+TD3_good/tmp/*
+DDPG/plots/*
+DDPG/videos/*
+DDPG/tmp/*
+final_submission/plots/*
+final_submission/videos/*
+final_submission/tmp/*
