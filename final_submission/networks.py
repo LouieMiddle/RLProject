@@ -6,81 +6,83 @@ import torch.optim as optim
 
 
 class CriticNetwork(nn.Module):
-    def __init__(self, beta, input_dims, fc1_dims, fc2_dims, n_actions,
-                 name, chkpt_dir, agent_type):
+    def __init__(self, critic_learning_rate, input_size, layer1_size, layer2_size, n_actions, name, agent_dir,
+                 agent_type):
         super(CriticNetwork, self).__init__()
-        self.input_dims = input_dims
-        self.fc1_dims = fc1_dims
-        self.fc2_dims = fc2_dims
+        self.input_size = input_size
+        self.layer1_size = layer1_size
+        self.layer2_size = layer2_size
         self.n_actions = n_actions
         self.name = name
-        self.checkpoint_dir = chkpt_dir
-        self.checkpoint_file = os.path.join(self.checkpoint_dir, name + agent_type)
+        self.agent_dir = agent_dir
+        self.agent_file = os.path.join(self.agent_dir, name + agent_type)
 
-        # I think this breaks if the env has a 2D state representation
-        self.fc1 = nn.Linear(self.input_dims[0] + n_actions, self.fc1_dims)
-        self.fc2 = nn.Linear(self.fc1_dims, self.fc2_dims)
-        self.q1 = nn.Linear(self.fc2_dims, 1)
+        self.layer1 = nn.Linear(self.input_size[0] + n_actions, self.layer1_size)
+        self.layer2 = nn.Linear(self.layer1_size, self.layer2_size)
+        self.output_layer = nn.Linear(self.layer2_size, 1)
 
-        self.optimizer = optim.Adam(self.parameters(), lr=beta)
+        self.optimizer = optim.Adam(self.parameters(), lr=critic_learning_rate)
         self.device = T.device('cuda:0' if T.cuda.is_available() else 'cpu')
 
         self.to(self.device)
 
+    # Evaluating actions
     def forward(self, state, action):
-        q1_action_value = self.fc1(T.cat([state, action], dim=1))
-        q1_action_value = F.relu(q1_action_value)
-        q1_action_value = self.fc2(q1_action_value)
-        q1_action_value = F.relu(q1_action_value)
+        action_value = self.layer1(T.cat([state, action], dim=1))
+        action_value = F.relu(action_value)
+        action_value = self.layer2(action_value)
+        action_value = F.relu(action_value)
 
-        q1 = self.q1(q1_action_value)
+        q1 = self.output_layer(action_value)
 
         return q1
 
-    def save_checkpoint(self):
-        print('... saving checkpoint ...')
-        T.save(self.state_dict(), self.checkpoint_file)
+    def save_critic(self):
+        print('saving critic')
+        T.save(self.state_dict(), self.agent_file)
 
-    def load_checkpoint(self):
-        print('... loading checkpoint ...')
-        self.load_state_dict(T.load(self.checkpoint_file))
+    def load_critic(self):
+        print('loading critic')
+        self.load_state_dict(T.load(self.agent_file))
 
 
 class ActorNetwork(nn.Module):
-    def __init__(self, alpha, input_dims, fc1_dims, fc2_dims,
-                 n_actions, name, chkpt_dir, agent_type):
+    def __init__(self, actor_learning_rate, input_size, layer1_size, layer2_size, n_actions, name, agent_dir,
+                 agent_type):
         super(ActorNetwork, self).__init__()
-        self.input_dims = input_dims
-        self.fc1_dims = fc1_dims
-        self.fc2_dims = fc2_dims
+        self.input_size = input_size
+        self.layer1_size = layer1_size
+        self.layer2_size = layer2_size
         self.n_actions = n_actions
         self.name = name
-        self.checkpoint_dir = chkpt_dir
-        self.checkpoint_file = os.path.join(self.checkpoint_dir, name + agent_type)
+        self.agent_dir = agent_dir
+        self.agent_file = os.path.join(self.agent_dir, name + agent_type)
 
-        self.fc1 = nn.Linear(*self.input_dims, self.fc1_dims)
-        self.fc2 = nn.Linear(self.fc1_dims, self.fc2_dims)
-        self.mu = nn.Linear(self.fc2_dims, self.n_actions)
+        self.layer1 = nn.Linear(*self.input_size, self.layer1_size)
+        self.layer2 = nn.Linear(self.layer1_size, self.layer2_size)
+        self.output_layer = nn.Linear(self.layer2_size, self.n_actions)
 
-        self.optimizer = optim.Adam(self.parameters(), lr=alpha)
+        self.optimizer = optim.Adam(self.parameters(), lr=actor_learning_rate)
         self.device = T.device('cuda:0' if T.cuda.is_available() else 'cpu')
 
         self.to(self.device)
 
+    # Determining what action to take
     def forward(self, state):
-        prob = self.fc1(state)
+        prob = self.layer1(state)
         prob = F.relu(prob)
-        prob = self.fc2(prob)
+        prob = self.layer2(prob)
         prob = F.relu(prob)
 
-        prob = T.tanh(self.mu(prob))  # if action is > +/- 1 then multiply by max action
+        # As the action space of Lunar Lander is between +-1 no need to scale by size of max action
+        prob = T.tanh(self.output_layer(prob))
 
         return prob
 
-    def save_checkpoint(self):
-        print('... saving checkpoint ...')
-        T.save(self.state_dict(), self.checkpoint_file)
+    def save_actor(self):
+        print('saving actor')
+        T.save(self.state_dict(), self.agent_file)
 
-    def load_checkpoint(self):
-        print('... loading checkpoint ...')
-        self.load_state_dict(T.load(self.checkpoint_file))
+    def load_actor(self):
+        print('loading actor')
+        self.load_state_dict(T.load(self.agent_file))
