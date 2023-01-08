@@ -4,6 +4,8 @@
 
 The main file should be runnable as is once the relevant dependencies are installed (we use PyCharm and Anaconda to automatically detect and enable installing needed packages).
 
+Equally, the supplied `environment.yml` can be used to install the exact conda interpreter used to run the code on our machines. Run `conda env create -f environment.yml` to achieve this.
+
 It is important to note that gym version 0.22.0 needs to be used and not the latest version as otherwise the gym video wrappers does not work.
 
 You will also need to create the following directories in the same root directory as all the other python files:
