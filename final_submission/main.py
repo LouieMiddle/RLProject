@@ -23,7 +23,7 @@ def train_agents():
 
     # DDPG
     ddpg_agent = DDPGAgent(actor_learning_rate=actor_learning_rate, critic_learning_rate=critic_learning_rate,
-                           input_shape=input_shape, tau=tau,
+                           input_shape=input_shape, tau=tau, env=ddpg_env,
                            batch_size=batch_size, layer1_size=layer1_size, layer2_size=layer2_size,
                            n_actions=n_actions)
     ddpg_filename = 'LunarLander_actor_learning_rate_' + str(actor_learning_rate) + '_critic_learning_rate_' + str(

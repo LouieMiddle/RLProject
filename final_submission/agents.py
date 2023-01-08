@@ -56,13 +56,10 @@ class TD3Agent(BaseAgent):
         self.update_network_parameters(tau=1)
 
     def choose_action(self, observation):
-        if self.time_step_counter < self.warmup:
-            action = T.tensor(np.random.normal(scale=self.noise, size=(self.n_actions,)), device=self.actor.device)
-        else:
-            state = T.tensor(observation, dtype=T.float).to(self.actor.device)
-            action = self.actor.forward(state).to(self.actor.device)
-
+        state = T.tensor(observation, dtype=T.float).to(self.actor.device)
+        action = self.actor.forward(state).to(self.actor.device)
         action_prime = action + T.tensor(np.random.normal(scale=self.noise), dtype=T.float, device=self.actor.device)
+        # In case that is beyond action space clamp again to min and max actions
         action_prime = T.clamp(action_prime, self.min_action[0], self.max_action[0])
         self.time_step_counter += 1
         return action_prime.cpu().detach().numpy()
@@ -109,6 +106,7 @@ class TD3Agent(BaseAgent):
         self.critic_1.optimizer.zero_grad()
         self.critic_2.optimizer.zero_grad()
 
+        # MSE loss but could be Huber loss
         q1_loss = F.mse_loss(target, q1)
         q2_loss = F.mse_loss(target, q2)
         critic_loss = q1_loss + q2_loss
@@ -119,7 +117,7 @@ class TD3Agent(BaseAgent):
 
         self.learn_step_counter += 1
 
-        # Only update actor every update actor interval
+        # Only update actor every update actor interval (which is every 2 learn calls)
         if self.learn_step_counter % self.update_actor_interval != 0:
             return
 
@@ -183,12 +181,14 @@ class TD3Agent(BaseAgent):
 
 
 class DDPGAgent(BaseAgent):
-    def __init__(self, actor_learning_rate, critic_learning_rate, input_shape, tau, n_actions, gamma=0.99,
+    def __init__(self, actor_learning_rate, critic_learning_rate, input_shape, tau, env, n_actions, gamma=0.99,
                  max_size=1000000, layer1_size=400,
                  layer2_size=300, batch_size=64, agent_dir='tmp/ddpg'):
         super().__init__()
         self.gamma = gamma
         self.tau = tau
+        self.max_action = env.action_space.high
+        self.min_action = env.action_space.low
         self.batch_size = batch_size
         self.actor_learning_rate = actor_learning_rate
         self.critic_learning_rate = critic_learning_rate
@@ -211,13 +211,11 @@ class DDPGAgent(BaseAgent):
         self.update_network_parameters(tau=1)
 
     def choose_action(self, observation):
-        # Must put actor in eval mode
-        self.actor.eval()
         state = T.tensor([observation], dtype=T.float).to(self.actor.device)
         action = self.actor.forward(state).to(self.actor.device)
         action_prime = action + T.tensor(self.noise(), dtype=T.float).to(self.actor.device)
-        # And then put back in train mode
-        self.actor.train()
+        # In case that is beyond action space clamp again to min and max actions
+        action_prime = T.clamp(action_prime, self.min_action[0], self.max_action[0])
 
         return action_prime.cpu().detach().numpy()[0]
 
@@ -235,16 +233,17 @@ class DDPGAgent(BaseAgent):
         done = T.tensor(done).to(self.actor.device)
 
         target_actions = self.target_actor.forward(new_states)
-        critic_value_ = self.target_critic.forward(new_states, target_actions)
+        target_critic_value = self.target_critic.forward(new_states, target_actions)
         critic_value = self.critic.forward(states, actions)
 
-        critic_value_[done] = 0.0
-        critic_value_ = critic_value_.view(-1)
+        target_critic_value[done] = 0.0
+        target_critic_value = target_critic_value.view(-1)
 
-        target = rewards + self.gamma * critic_value_
+        target = rewards + self.gamma * target_critic_value
         target = target.view(self.batch_size, 1)
 
         self.critic.optimizer.zero_grad()
+        # MSE loss but could be huber loss
         critic_loss = F.mse_loss(target, critic_value)
         critic_loss.backward()
         self.critic.optimizer.step()
@@ -255,6 +254,7 @@ class DDPGAgent(BaseAgent):
         actor_loss.backward()
         self.actor.optimizer.step()
 
+        # Update network parameters each learn call
         self.update_network_parameters()
 
     def update_network_parameters(self, tau=None):
