@@ -1,4 +1,4 @@
-# Group 20 RL Project Readme
+# Group 20 RL Project
 
 ## Running the code
 
