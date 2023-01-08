@@ -17,7 +17,7 @@ class BaseAgent:
 
 class TD3Agent(BaseAgent):
     def __init__(self, actor_learning_rate, critic_learning_rate, input_shape, tau, env, gamma=0.99,
-                 update_actor_interval=2, warmup=1000, n_actions=2,
+                 update_actor_interval=2, n_actions=2,
                  max_size=1000000, layer1_size=400, layer2_size=300, batch_size=100, noise=0.1, agent_dir='tmp/td3'):
         super().__init__()
         self.gamma = gamma
@@ -28,7 +28,6 @@ class TD3Agent(BaseAgent):
         self.batch_size = batch_size
         self.learn_step_counter = 0
         self.time_step_counter = 0
-        self.warmup = warmup
         self.n_actions = n_actions
         self.update_actor_interval = update_actor_interval
         self.noise = noise
